@@ -1,0 +1,355 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:2:1-88:12
+	package
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:3:5-33
+	android:versionName
+		INJECTED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml
+		INJECTED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml
+		INJECTED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:5:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:8.1.0] /home/vcareall/.android/build-cache/a5dc80a82c1a1dc0c1fac5a5bad0f1cc9990ff27/output/AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-gcm:8.1.0] /home/vcareall/.android/build-cache/64942a9112dcdd1138b1635bf9acb8207073eff8/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.1.0] /home/vcareall/.android/build-cache/e5355dd1acd0719482ab3dd0e6b77d65fa06a7dd/output/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics:8.1.0] /home/vcareall/.android/build-cache/a190407a0bdeef58a5834dff3826160209f85b3a/output/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] /home/vcareall/.android/build-cache/8ed2b9fd3ad4bb2127b0756829bedf989713353c/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-wallet:8.1.0] /home/vcareall/.android/build-cache/d8cf07ffa3eb3b06fbc3914a6af4607dc910d4b9/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /home/vcareall/.android/build-cache/6fe9879655b26484141217677b90c84c4166c640/output/AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:6:5-80
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /home/vcareall/.android/build-cache/6fe9879655b26484141217677b90c84c4166c640/output/AndroidManifest.xml:22:5-80
+	android:name
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:8:5-78
+MERGED from [com.google.android.gms:play-services-measurement:8.1.0] /home/vcareall/.android/build-cache/e5355dd1acd0719482ab3dd0e6b77d65fa06a7dd/output/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics:8.1.0] /home/vcareall/.android/build-cache/a190407a0bdeef58a5834dff3826160209f85b3a/output/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] /home/vcareall/.android/build-cache/8ed2b9fd3ad4bb2127b0756829bedf989713353c/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-nearby:8.1.0] /home/vcareall/.android/build-cache/803d2e2ab0027d33b4f8bc646d640824447d6215/output/AndroidManifest.xml:19:5-79
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /home/vcareall/.android/build-cache/6fe9879655b26484141217677b90c84c4166c640/output/AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:8:22-76
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:9:22-77
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:10:5-97
+	android:name
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:10:22-95
+uses-permission#android.permission.GET_TASKS
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:11:22-65
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:12:5-68
+MERGED from [com.google.android.gms:play-services-measurement:8.1.0] /home/vcareall/.android/build-cache/e5355dd1acd0719482ab3dd0e6b77d65fa06a7dd/output/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:12:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:13:5-82
+MERGED from [com.google.android.gms:play-services-gcm:8.1.0] /home/vcareall/.android/build-cache/64942a9112dcdd1138b1635bf9acb8207073eff8/output/AndroidManifest.xml:21:5-82
+	android:name
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:13:22-79
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:14:22-76
+uses-feature#0x00020000
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:15:5-17:34
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /home/vcareall/.android/build-cache/6fe9879655b26484141217677b90c84c4166c640/output/AndroidManifest.xml:23:5-25:33
+	android:glEsVersion
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:16:9-41
+	android:required
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:17:9-32
+application
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:18:5-87:16
+MERGED from [com.google.android.gms:play-services:8.1.0] /home/vcareall/.android/build-cache/512e444ca9c27c5ea985da74a2c41e183f5bc179/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:8.1.0] /home/vcareall/.android/build-cache/a5dc80a82c1a1dc0c1fac5a5bad0f1cc9990ff27/output/AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-appstate:8.1.0] /home/vcareall/.android/build-cache/d6a064e638caca4cdd13d906d77965c98ef46854/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-cast:8.1.0] /home/vcareall/.android/build-cache/601ff21ea1123d965f1de2b1b8662b5b1e90b393/output/AndroidManifest.xml:19:5-20
+MERGED from [com.android.support:mediarouter-v7:22.2.0] /home/vcareall/.android/build-cache/a8b47eaea9ad5845e673d9bf190a314caf755e96/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/vcareall/.android/build-cache/4c0e9339076cb081efa022b72a60d51381cf9333/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/vcareall/.android/build-cache/af8bdf1c26151e271924c23fec4df1d923ec5515/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/vcareall/.android/build-cache/65c54be58e025049d61ded44d984a92cde22fe68/output/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-fitness:8.1.0] /home/vcareall/.android/build-cache/427e42c2ea8193ec9434b9d4ae53b8914ac899f5/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-games:8.1.0] /home/vcareall/.android/build-cache/90990fbc0c5185091a06ee1039146d61f71ea281/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-drive:8.1.0] /home/vcareall/.android/build-cache/4af03d859bdc86e47546a4fa3e8b8ead8d095958/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-gcm:8.1.0] /home/vcareall/.android/build-cache/64942a9112dcdd1138b1635bf9acb8207073eff8/output/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-location:8.1.0] /home/vcareall/.android/build-cache/e5160af54bf886792f1bac006964b4a75f00bc0d/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-measurement:8.1.0] /home/vcareall/.android/build-cache/e5355dd1acd0719482ab3dd0e6b77d65fa06a7dd/output/AndroidManifest.xml:26:5-46:19
+MERGED from [com.google.android.gms:play-services-analytics:8.1.0] /home/vcareall/.android/build-cache/a190407a0bdeef58a5834dff3826160209f85b3a/output/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] /home/vcareall/.android/build-cache/8ed2b9fd3ad4bb2127b0756829bedf989713353c/output/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] /home/vcareall/.android/build-cache/3ef1cee2002e03d3e54af5b351802a919fabbbce/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-nearby:8.1.0] /home/vcareall/.android/build-cache/803d2e2ab0027d33b4f8bc646d640824447d6215/output/AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-panorama:8.1.0] /home/vcareall/.android/build-cache/e13fab78ac9052e9bb4f21422ddde56c06ffca09/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-plus:8.1.0] /home/vcareall/.android/build-cache/5b018e05e3fceec84dd79a845e4c26a9e8004033/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:8.1.0] /home/vcareall/.android/build-cache/5681ad2991b6c90f0f20f4e5519e33ad2de9aaa6/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-vision:8.1.0] /home/vcareall/.android/build-cache/2747a0bcc435b7d8848d39d94f76d14e340a362d/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-identity:8.1.0] /home/vcareall/.android/build-cache/6ceb562180c86b4187ab039bc6393fc0cd3f3c3d/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /home/vcareall/.android/build-cache/6fe9879655b26484141217677b90c84c4166c640/output/AndroidManifest.xml:28:5-20
+MERGED from [com.google.android.gms:play-services-wearable:8.1.0] /home/vcareall/.android/build-cache/ea8980ec6b64de2b47dc1fa36ac374db077f33ce/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /home/vcareall/.android/build-cache/37dee8398cc5ed092a9735f25a83108afb974ac7/output/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:25.3.1] /home/vcareall/.android/build-cache/67cf211a3dd576e0717953d9648b560ec51e03f2/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/vcareall/.android/build-cache/ec9ab51010289ac42928001a5fee0133d865bd5a/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/vcareall/.android/build-cache/5d14df9e20ec55fdefc86d3c81ad66ffa68b91db/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/vcareall/.android/build-cache/6f2d51380f42d5846b5387122515ab800f8b808b/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/vcareall/.android/build-cache/96febcb4b3f277bf183f93d43d426dfcdde6e0ca/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/vcareall/.android/build-cache/b5365678ded158d4b54aa0f6e9893dc9334a7e8e/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:22:9-41
+	android:allowBackup
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:20:9-35
+	android:icon
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:21:9-45
+	android:theme
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:23:9-40
+	android:name
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:19:9-46
+uses-library#com.google.android.maps
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:24:9-64
+	android:name
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:24:23-61
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:32:9-34:70
+	android:value
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:34:13-68
+	android:name
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:33:13-62
+meta-data#com.google.android.gms.version
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:36:9-38:69
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /home/vcareall/.android/build-cache/37dee8398cc5ed092a9735f25a83108afb974ac7/output/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:38:13-66
+	android:name
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:37:13-58
+activity#com.lixtracking.lt.MainActivity
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:40:9-47:20
+	android:screenOrientation
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:43:13-49
+	android:label
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:42:13-45
+	android:name
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:41:13-59
+meta-data#android.app.default_searchable
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:44:13-46:67
+	android:value
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:46:17-64
+	android:name
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:45:17-62
+activity#com.lixtracking.lt.activities.LoginActivity
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:48:9-56:20
+	android:screenOrientation
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:51:13-49
+	android:label
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:50:13-45
+	android:name
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:49:13-71
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:52:13-55:29
+action#android.intent.action.MAIN
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:53:17-69
+	android:name
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:53:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:54:17-77
+	android:name
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:54:27-74
+activity#com.lixtracking.lt.activities.VehicleDetailActivity
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:57:9-58:51
+	android:screenOrientation
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:58:13-49
+	android:name
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:57:19-67
+activity#com.lixtracking.lt.activities.TrackingHistoryActivity
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:59:9-61:47
+	android:screenOrientation
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:60:13-49
+	android:label
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:61:13-45
+	android:name
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:59:19-69
+activity#com.lixtracking.lt.activities.ChangePasswordActivity
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:62:9-64:46
+	android:screenOrientation
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:63:13-49
+	android:label
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:64:13-44
+	android:name
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:62:19-68
+activity#com.lixtracking.lt.activities.SetCustomDateTime
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:65:9-66:51
+	android:screenOrientation
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:66:13-49
+	android:name
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:65:19-63
+activity#com.lixtracking.lt.activities.VehicleDetailInfoActivity
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:67:9-68:51
+	android:screenOrientation
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:68:13-49
+	android:name
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:67:19-71
+activity#com.lixtracking.lt.activities.SerchResultActivity
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:69:8-77:20
+	android:label
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:71:13-42
+	android:name
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:70:13-59
+intent-filter#android.intent.action.SEARCH
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:72:13-74:29
+action#android.intent.action.SEARCH
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:73:17-71
+	android:name
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:73:25-68
+meta-data#android.app.searchable
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:75:13-76:54
+	android:resource
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:76:17-51
+	android:name
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:75:24-61
+activity#com.lixtracking.lt.activities.AlertMapActivity
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:78:9-80:40
+	android:screenOrientation
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:79:13-49
+	android:label
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:80:13-38
+	android:name
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:78:19-62
+activity#com.lixtracking.lt.activities.AboutActivity
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:81:9-83:36
+	android:screenOrientation
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:82:13-49
+	android:label
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:83:13-34
+	android:name
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:81:19-59
+activity#com.lixtracking.lt.activities.FunctionActivity
+ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:84:9-86:51
+	android:screenOrientation
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:86:13-49
+	android:label
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:85:13-45
+	android:name
+		ADDED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:84:19-62
+uses-sdk
+INJECTED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.google.android.gms:play-services:8.1.0] /home/vcareall/.android/build-cache/512e444ca9c27c5ea985da74a2c41e183f5bc179/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:8.1.0] /home/vcareall/.android/build-cache/a5dc80a82c1a1dc0c1fac5a5bad0f1cc9990ff27/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appstate:8.1.0] /home/vcareall/.android/build-cache/d6a064e638caca4cdd13d906d77965c98ef46854/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-cast:8.1.0] /home/vcareall/.android/build-cache/601ff21ea1123d965f1de2b1b8662b5b1e90b393/output/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:mediarouter-v7:22.2.0] /home/vcareall/.android/build-cache/a8b47eaea9ad5845e673d9bf190a314caf755e96/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/vcareall/.android/build-cache/4c0e9339076cb081efa022b72a60d51381cf9333/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/vcareall/.android/build-cache/af8bdf1c26151e271924c23fec4df1d923ec5515/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/vcareall/.android/build-cache/65c54be58e025049d61ded44d984a92cde22fe68/output/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-fitness:8.1.0] /home/vcareall/.android/build-cache/427e42c2ea8193ec9434b9d4ae53b8914ac899f5/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-games:8.1.0] /home/vcareall/.android/build-cache/90990fbc0c5185091a06ee1039146d61f71ea281/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-drive:8.1.0] /home/vcareall/.android/build-cache/4af03d859bdc86e47546a4fa3e8b8ead8d095958/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:8.1.0] /home/vcareall/.android/build-cache/64942a9112dcdd1138b1635bf9acb8207073eff8/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:8.1.0] /home/vcareall/.android/build-cache/e5160af54bf886792f1bac006964b4a75f00bc0d/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-measurement:8.1.0] /home/vcareall/.android/build-cache/e5355dd1acd0719482ab3dd0e6b77d65fa06a7dd/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics:8.1.0] /home/vcareall/.android/build-cache/a190407a0bdeef58a5834dff3826160209f85b3a/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-ads:8.1.0] /home/vcareall/.android/build-cache/8ed2b9fd3ad4bb2127b0756829bedf989713353c/output/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] /home/vcareall/.android/build-cache/3ef1cee2002e03d3e54af5b351802a919fabbbce/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-nearby:8.1.0] /home/vcareall/.android/build-cache/803d2e2ab0027d33b4f8bc646d640824447d6215/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-panorama:8.1.0] /home/vcareall/.android/build-cache/e13fab78ac9052e9bb4f21422ddde56c06ffca09/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-plus:8.1.0] /home/vcareall/.android/build-cache/5b018e05e3fceec84dd79a845e4c26a9e8004033/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:8.1.0] /home/vcareall/.android/build-cache/5681ad2991b6c90f0f20f4e5519e33ad2de9aaa6/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-vision:8.1.0] /home/vcareall/.android/build-cache/2747a0bcc435b7d8848d39d94f76d14e340a362d/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-wallet:8.1.0] /home/vcareall/.android/build-cache/d8cf07ffa3eb3b06fbc3914a6af4607dc910d4b9/output/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-identity:8.1.0] /home/vcareall/.android/build-cache/6ceb562180c86b4187ab039bc6393fc0cd3f3c3d/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] /home/vcareall/.android/build-cache/6fe9879655b26484141217677b90c84c4166c640/output/AndroidManifest.xml:27:5-42
+MERGED from [com.google.android.gms:play-services-wearable:8.1.0] /home/vcareall/.android/build-cache/ea8980ec6b64de2b47dc1fa36ac374db077f33ce/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] /home/vcareall/.android/build-cache/6eef971e2de81ac1db5f763a9354f0c30d8b3295/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] /home/vcareall/.android/build-cache/37dee8398cc5ed092a9735f25a83108afb974ac7/output/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:25.3.1] /home/vcareall/.android/build-cache/67cf211a3dd576e0717953d9648b560ec51e03f2/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /home/vcareall/.android/build-cache/ec9ab51010289ac42928001a5fee0133d865bd5a/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/vcareall/.android/build-cache/5d14df9e20ec55fdefc86d3c81ad66ffa68b91db/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/vcareall/.android/build-cache/6f2d51380f42d5846b5387122515ab800f8b808b/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/vcareall/.android/build-cache/96febcb4b3f277bf183f93d43d426dfcdde6e0ca/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] /home/vcareall/.android/build-cache/b5365678ded158d4b54aa0f6e9893dc9334a7e8e/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/vcareall/.android/build-cache/4c0e9339076cb081efa022b72a60d51381cf9333/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml
+		INJECTED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml
+		INJECTED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /home/vcareall/.android/build-cache/4c0e9339076cb081efa022b72a60d51381cf9333/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/vcareall/.android/build-cache/af8bdf1c26151e271924c23fec4df1d923ec5515/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/vcareall/.android/build-cache/65c54be58e025049d61ded44d984a92cde22fe68/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/vcareall/.android/build-cache/67cf211a3dd576e0717953d9648b560ec51e03f2/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/vcareall/.android/build-cache/ec9ab51010289ac42928001a5fee0133d865bd5a/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/vcareall/.android/build-cache/5d14df9e20ec55fdefc86d3c81ad66ffa68b91db/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/vcareall/.android/build-cache/6f2d51380f42d5846b5387122515ab800f8b808b/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/vcareall/.android/build-cache/96febcb4b3f277bf183f93d43d426dfcdde6e0ca/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/vcareall/.android/build-cache/b5365678ded158d4b54aa0f6e9893dc9334a7e8e/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/vcareall/.android/build-cache/4c0e9339076cb081efa022b72a60d51381cf9333/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/vcareall/.android/build-cache/4c0e9339076cb081efa022b72a60d51381cf9333/output/AndroidManifest.xml:26:9-47
+provider#com.google.android.gms.measurement.AppMeasurementContentProvider
+ADDED from [com.google.android.gms:play-services-measurement:8.1.0] /home/vcareall/.android/build-cache/e5355dd1acd0719482ab3dd0e6b77d65fa06a7dd/output/AndroidManifest.xml:28:7-31:37
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] /home/vcareall/.android/build-cache/e5355dd1acd0719482ab3dd0e6b77d65fa06a7dd/output/AndroidManifest.xml:29:11-76
+		INJECTED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] /home/vcareall/.android/build-cache/e5355dd1acd0719482ab3dd0e6b77d65fa06a7dd/output/AndroidManifest.xml:31:11-35
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] /home/vcareall/.android/build-cache/e5355dd1acd0719482ab3dd0e6b77d65fa06a7dd/output/AndroidManifest.xml:30:11-90
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:8.1.0] /home/vcareall/.android/build-cache/e5355dd1acd0719482ab3dd0e6b77d65fa06a7dd/output/AndroidManifest.xml:33:7-39:18
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] /home/vcareall/.android/build-cache/e5355dd1acd0719482ab3dd0e6b77d65fa06a7dd/output/AndroidManifest.xml:35:11-33
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] /home/vcareall/.android/build-cache/e5355dd1acd0719482ab3dd0e6b77d65fa06a7dd/output/AndroidManifest.xml:34:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.1.0] /home/vcareall/.android/build-cache/e5355dd1acd0719482ab3dd0e6b77d65fa06a7dd/output/AndroidManifest.xml:36:9-38:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.1.0] /home/vcareall/.android/build-cache/e5355dd1acd0719482ab3dd0e6b77d65fa06a7dd/output/AndroidManifest.xml:37:11-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] /home/vcareall/.android/build-cache/e5355dd1acd0719482ab3dd0e6b77d65fa06a7dd/output/AndroidManifest.xml:37:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:8.1.0] /home/vcareall/.android/build-cache/e5355dd1acd0719482ab3dd0e6b77d65fa06a7dd/output/AndroidManifest.xml:41:7-44:37
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] /home/vcareall/.android/build-cache/e5355dd1acd0719482ab3dd0e6b77d65fa06a7dd/output/AndroidManifest.xml:43:11-33
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] /home/vcareall/.android/build-cache/e5355dd1acd0719482ab3dd0e6b77d65fa06a7dd/output/AndroidManifest.xml:44:11-35
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.1.0] /home/vcareall/.android/build-cache/e5355dd1acd0719482ab3dd0e6b77d65fa06a7dd/output/AndroidManifest.xml:42:11-82
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads:8.1.0] /home/vcareall/.android/build-cache/8ed2b9fd3ad4bb2127b0756829bedf989713353c/output/AndroidManifest.xml:26:9-29:64
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads:8.1.0] /home/vcareall/.android/build-cache/8ed2b9fd3ad4bb2127b0756829bedf989713353c/output/AndroidManifest.xml:28:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.1.0] /home/vcareall/.android/build-cache/8ed2b9fd3ad4bb2127b0756829bedf989713353c/output/AndroidManifest.xml:29:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.1.0] /home/vcareall/.android/build-cache/8ed2b9fd3ad4bb2127b0756829bedf989713353c/output/AndroidManifest.xml:27:13-65
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads:8.1.0] /home/vcareall/.android/build-cache/8ed2b9fd3ad4bb2127b0756829bedf989713353c/output/AndroidManifest.xml:30:9-31:52
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.1.0] /home/vcareall/.android/build-cache/8ed2b9fd3ad4bb2127b0756829bedf989713353c/output/AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.1.0] /home/vcareall/.android/build-cache/8ed2b9fd3ad4bb2127b0756829bedf989713353c/output/AndroidManifest.xml:30:19-91
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from [com.google.android.gms:play-services-wallet:8.1.0] /home/vcareall/.android/build-cache/d8cf07ffa3eb3b06fbc3914a6af4607dc910d4b9/output/AndroidManifest.xml:21:5-70
+	android:name
+		ADDED from [com.google.android.gms:play-services-wallet:8.1.0] /home/vcareall/.android/build-cache/d8cf07ffa3eb3b06fbc3914a6af4607dc910d4b9/output/AndroidManifest.xml:21:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from [com.google.android.gms:play-services-wallet:8.1.0] /home/vcareall/.android/build-cache/d8cf07ffa3eb3b06fbc3914a6af4607dc910d4b9/output/AndroidManifest.xml:22:5-73
+	android:name
+		ADDED from [com.google.android.gms:play-services-wallet:8.1.0] /home/vcareall/.android/build-cache/d8cf07ffa3eb3b06fbc3914a6af4607dc910d4b9/output/AndroidManifest.xml:22:22-71
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/AndroidManifest.xml:2:1-88:12 reason: com.google.android.gms.maps requested WRITE_EXTERNAL_STORAGE

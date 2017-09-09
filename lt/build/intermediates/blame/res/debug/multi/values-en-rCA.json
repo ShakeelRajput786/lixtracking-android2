@@ -1,0 +1,50 @@
+[
+    {
+        "outputFile": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rCA\\values-en-rCA.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 103,
+                    "endOffset": 154
+                },
+                "from": {
+                    "file": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/C:\\Users\\dell\\.android\\build-cache\\ae1c90e526434aa218045424cff4be0451832d63\\output\\res\\values-en-rCA\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 244,
+                        "endColumn": 99,
+                        "endOffset": 343
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 103,
+                    "endOffset": 154
+                },
+                "from": {
+                    "file": "/home/vcareall/.android/build-cache/1c8f8f190cb03a9280012509dbfe85c0459ff47b/output/res/values-en-rCA/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 244,
+                        "endColumn": 99,
+                        "endOffset": 343
+                    }
+                }
+            }
+        ]
+    }
+]

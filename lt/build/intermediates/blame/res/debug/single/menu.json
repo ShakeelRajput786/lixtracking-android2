@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\build\\intermediates\\res\\merged\\debug\\menu\\menu_map.xml",
+        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\src\\main\\res\\menu\\menu_map.xml"
+    },
+    {
+        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/menu/menu_map.xml",
+        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/res/menu/menu_map.xml"
+    },
+    {
+        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\build\\intermediates\\res\\merged\\debug\\menu\\menu_home.xml",
+        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\src\\main\\res\\menu\\menu_home.xml"
+    },
+    {
+        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\build\\intermediates\\res\\merged\\debug\\menu\\menu_track_history.xml",
+        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\src\\main\\res\\menu\\menu_track_history.xml"
+    },
+    {
+        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\build\\intermediates\\res\\merged\\debug\\menu\\menu_alert.xml",
+        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\src\\main\\res\\menu\\menu_alert.xml"
+    },
+    {
+        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/menu/menu_track_history.xml",
+        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/res/menu/menu_track_history.xml"
+    },
+    {
+        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/menu/menu_home.xml",
+        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/res/menu/menu_home.xml"
+    },
+    {
+        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/menu/menu_alert.xml",
+        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/res/menu/menu_alert.xml"
+    }
+]

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_gray">
+
+
+    <ProgressBar android:id="@+id/loading_spinner"
+        style="?android:progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:background="@color/dark_gray"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_below="@+id/relativeLayout"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout"
+        android:background="@color/background_light">
+        <LinearLayout
+            android:layout_below="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="3">
+            <ToggleButton
+                android:id="@+id/toggleButton1"
+                android:layout_height="fill_parent"
+                android:textOff="All"
+                android:textOn="All"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/tab_all_state_btn"/>
+            <ToggleButton
+                android:id="@+id/toggleButton2"
+                android:layout_height="fill_parent"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:textOff="Online"
+                android:textOn="Online"
+                android:background="@drawable/tab_all_state_btn"/>
+            <ToggleButton
+                android:id="@+id/toggleButton3"
+                android:layout_height="fill_parent"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:textOff="Offline"
+                android:textOn="Offline"
+                android:background="@drawable/tab_all_state_btn"/>
+        </LinearLayout>
+
+        </RelativeLayout>
+</RelativeLayout>
