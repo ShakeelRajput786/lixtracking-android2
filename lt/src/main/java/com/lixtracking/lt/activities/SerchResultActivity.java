@@ -29,6 +29,9 @@ public class SerchResultActivity extends Activity {
     private static final String STOCK_NUMBER = "stok_number";
     private static final String ID  = "id";
     private static final String ICON  = "icon";
+    /* Updated ListViews on 10th Sep 2017*/
+    private static final String VEHICLE_IDENTITY = "Vehicle Identity";
+    private static final String SPEED = "Speed";
     private int[] vehicleId;
 
     public List<VehicleData> vehicleDataList = null;
@@ -98,10 +101,12 @@ public class SerchResultActivity extends Activity {
                     HashMap<String, Object>item = new HashMap<String, Object>();
                     item.put(ID,Integer.toString(vehicleId[i]+1));
                     item.put(NAME, data.first_name + " " + data.last_name);
-                    item.put(GPS_ID, "gps id : " + data.gps_id);
+                    item.put(GPS_ID, "GPS ID: " + data.gps_id);
                     item.put(VIN,"VIN : " + data.vin);
                     item.put(STATUS,data.status == 1 ? "on" : "off");
-                    item.put(STOCK_NUMBER, "stock number : " + data.stock_number);
+                    item.put(STOCK_NUMBER, "Stock No. : " + data.stock_number);
+                    item.put(VEHICLE_IDENTITY, "Vehicle Id: " + data.vehicleIdentity);
+                    item.put(SPEED,data.speed == 0 ? "Speed: 0 km/h" : "Speed: " + data.speed);
                     if(data.status == 1) {
                         item.put(ICON, R.drawable.car);
                     } else {
@@ -111,8 +116,10 @@ public class SerchResultActivity extends Activity {
                 }
 
                 SimpleAdapter adapter = new SimpleAdapter(this, listObjects ,R.layout.vehicle_item,
-                        new String[]{ICON,ID,NAME,GPS_ID,STOCK_NUMBER,VIN, STATUS},
-                        new int[]{R.id.icon,R.id.u_id, R.id.text1, R.id.text2,R.id.text3, R.id.text4, R.id.text5});
+                        new String[]{ICON,ID,NAME, GPS_ID,VEHICLE_IDENTITY, VIN, STATUS, SPEED},
+                        new int[]{R.id.icon,R.id.u_id, R.id.text1, R.id.text2,R.id.text3, R.id.text4, R.id.text5, R.id.text6});
+                /*new String[]{ICON,ID,NAME,GPS_ID,STOCK_NUMBER,VIN, STATUS},
+                        new int[]{R.id.icon,R.id.u_id, R.id.text1, R.id.text2,R.id.text3, R.id.text4, R.id.text5});*/
                 listView.setAdapter(adapter);
                 listView.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
             }

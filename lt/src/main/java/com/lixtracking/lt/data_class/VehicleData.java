@@ -16,6 +16,8 @@ public class VehicleData {
     public static final String YEAR = "year";
     public static final String STATUS = "status";
     public static final String USER_ID = "user_id";
+    public static final String VEHICLE_IDENTITY = "vehicleIdentity";
+    public static final String SPEED = "speed";
 
     public String vin = "vin";
     public String gps_id = "gps id";
@@ -27,4 +29,6 @@ public class VehicleData {
     public int year = 0;
     public int status = 0;
     public String user_id = "user_id";
+    public String vehicleIdentity = "vehicleIdentity";
+    public int speed = 0;
 }

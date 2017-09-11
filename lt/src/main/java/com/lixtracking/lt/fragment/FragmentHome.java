@@ -53,16 +53,41 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
+ * <vehicleData>
+ <vin>0PJB4G8OP0P</vin>
+ <gps_id>03-58-89-90-51-06-36-86</gps_id>
+ <stock_number/>
+ <last_name/>
+ <first_name/>
+ <make/>
+ <model/>
+ <year>0</year>
+ <status>1</status>
+ <vehiclestatus>false</vehiclestatus>
+ <vehicleIdentity>03-58-89-90-51-06-36-86</vehicleIdentity>
+ <user_id>care2017</user_id>
+ <ViolationTime>0</ViolationTime>
+ <StatusColor>Red</StatusColor>
+ <Minutes>0</Minutes>
+ <speed>0</speed>
+ </vehicleData>
+ */
+
+/**
  * Created by saiber on 26.03.2014.
  */
 public class FragmentHome extends Fragment {
     private static final String NAME = "name";
-    private static final String GPS_ID = "gps_id";
+    private static final String GPS_ID = "GPS ID";
     private static final String VIN = "vin";
     private static final String STATUS = "status";
-    private static final String STOCK_NUMBER = "stok_number";
+    private static final String STOCK_NUMBER = "Stock Number";
     private static final String ID  = "id";
     private static final String ICON  = "icon";
+    /* Updated ListViews on 10th Sep 2017*/
+    private static final String VEHICLE_IDENTITY = "Vehicle Id";
+    private static final String SPEED = "Speed";
+
     private ProgressBar progressBar;
 
     private ToggleButton toggleButton1;
@@ -162,8 +187,10 @@ public class FragmentHome extends Fragment {
         super.onResume();
         if(listObjects != null){
             SimpleAdapter adapter = new SimpleAdapter(getActivity(), listObjects ,R.layout.vehicle_item,
-                    new String[]{ICON,ID,NAME,GPS_ID,STOCK_NUMBER,VIN, STATUS},
-                    new int[]{R.id.icon,R.id.u_id, R.id.text1, R.id.text2,R.id.text3, R.id.text4, R.id.text5});
+                    /*new String[]{ICON,ID,GPS_ID,VEHICLE_IDENTITY,SPEED},
+                    new int[]{R.id.icon,R.id.u_id, R.id.text2,R.id.text3, R.id.text5});*/
+                    new String[]{ICON,ID,NAME, GPS_ID,VEHICLE_IDENTITY,VIN, STATUS, SPEED},
+                    new int[]{R.id.icon,R.id.u_id, R.id.text1, R.id.text2,R.id.text3, R.id.text4, R.id.text5, R.id.text6});
             listView.setAdapter(adapter);
             listView.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
             listView.setSelection(listViewCurrentPosition);
@@ -199,6 +226,8 @@ public class FragmentHome extends Fragment {
                     intent.putExtra(VehicleData.STOCK_NUMBER, data.stock_number);
                     intent.putExtra(VehicleData.YEAR, data.year);
                     intent.putExtra(VehicleData.STATUS, data.status);
+                    intent.putExtra(VehicleData.VEHICLE_IDENTITY, data.vehicleIdentity);
+                    intent.putExtra(VehicleData.SPEED, data.speed);
                     startActivity(intent);
                 }
             }
@@ -311,10 +340,11 @@ public class FragmentHome extends Fragment {
                 isRunning = false;
                 return;
             }else if(result == null && listObjects != null) {
+                //new String[]{ICON,ID,NAME,GPS_ID,STOCK_NUMBER}
                 if(MainActivity.getCurrentFragmentTag() == MainActivity.TAB_HOME) {
                     SimpleAdapter adapter = new SimpleAdapter(getActivity(), listObjects ,R.layout.vehicle_item,
-                            new String[]{ICON,ID,NAME,GPS_ID,STOCK_NUMBER},
-                            new int[]{R.id.icon,R.id.u_id, R.id.text1, R.id.text2,R.id.text3});
+                            new String[]{ICON,ID,NAME, GPS_ID,VEHICLE_IDENTITY, STATUS, SPEED},
+                            new int[]{R.id.icon,R.id.u_id, R.id.text1, R.id.text2,R.id.text3,R.id.text4,R.id.text5,R.id.text6});
                     listView.setAdapter(adapter);
                     listView.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
                 }
@@ -400,10 +430,12 @@ public class FragmentHome extends Fragment {
                 HashMap<String, Object>item = new HashMap<String, Object>();
                 item.put(ID,Integer.toString(i+1));
                 item.put(NAME, data.first_name + " " + data.last_name);
-                item.put(GPS_ID, "gps id : " + data.gps_id);
-                item.put(VIN,"VIN : " + data.vin);
+                item.put(GPS_ID, "GPS ID: " + data.gps_id);
+                item.put(VIN,"VIN: " + data.vin);
                 item.put(STATUS,data.status == 1 ? "on" : "off");
-                item.put(STOCK_NUMBER, "stock number : " + data.stock_number);
+                item.put(STOCK_NUMBER, "Stock No. : " + data.stock_number);
+                item.put(VEHICLE_IDENTITY, "Vehicle Id: " + data.vehicleIdentity);
+                item.put(SPEED,data.speed == 0 ? "Speed: 0 km/h" : "Speed: " + data.speed);
                 if(data.status == 1) {
                     item.put(ICON, R.drawable.car);
                 } else {
@@ -413,8 +445,10 @@ public class FragmentHome extends Fragment {
             }
             if(MainActivity.getCurrentFragmentTag() == MainActivity.TAB_HOME) {
                 adapter = new SimpleAdapter(getActivity(), listObjects ,R.layout.vehicle_item,
-                        new String[]{ICON,ID,NAME,GPS_ID,STOCK_NUMBER,VIN, STATUS},
-                        new int[]{R.id.icon,R.id.u_id, R.id.text1, R.id.text2,R.id.text3, R.id.text4, R.id.text5});
+                        new String[]{ICON,ID,NAME, GPS_ID,VEHICLE_IDENTITY,VIN, STATUS, SPEED},
+                        new int[]{R.id.icon,R.id.u_id, R.id.text1, R.id.text2,R.id.text3, R.id.text4, R.id.text5, R.id.text6});
+                /*new String[]{ICON,ID,NAME,GPS_ID,VEHICLE_IDENTITY,VIN, SPEED},
+                        new int[]{R.id.icon,R.id.u_id, R.id.text1, R.id.text2,R.id.text3, R.id.text4, R.id.text5});*/
                 listView.setAdapter(adapter);
                 listView.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
                 listView.invalidateViews();

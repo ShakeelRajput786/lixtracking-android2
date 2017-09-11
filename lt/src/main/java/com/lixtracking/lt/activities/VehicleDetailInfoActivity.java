@@ -58,15 +58,17 @@ public class VehicleDetailInfoActivity extends Activity{
         vehicleData.user_id = intent.getStringExtra(VehicleData.USER_ID);
         vehicleData.status = intent.getIntExtra(VehicleData.STATUS,0);
         vehicleData.year = intent.getIntExtra(VehicleData.YEAR,0);
+        vehicleData.speed = intent.getIntExtra(VehicleData.SPEED, 0);
+        vehicleData.vehicleIdentity = intent.getStringExtra(VehicleData.VEHICLE_IDENTITY);
 
         ((TextView)findViewById(R.id.text1)).setText(vehicleData.first_name + " " + vehicleData.last_name);
-        ((TextView)findViewById(R.id.text2)).setText("user id : " + vehicleData.user_id);
-        ((TextView)findViewById(R.id.text3)).setText("VIN : " + vehicleData.vin);
+        ((TextView)findViewById(R.id.text2)).setText("User ID: " + vehicleData.user_id);
+        ((TextView)findViewById(R.id.text3)).setText("VIN: " + vehicleData.vin);
         ((TextView)findViewById(R.id.textView5)).setText(vehicleData.model);
         ((TextView)findViewById(R.id.textView7)).setText(vehicleData.make);
         ((TextView)findViewById(R.id.textView10)).setText(Integer.toString(vehicleData.year));
         ((TextView)findViewById(R.id.textView13)).setText(vehicleData.stock_number);
-        ((TextView)findViewById(R.id.tv_gps_id)).setText("GPS ID : " + vehicleData.gps_id);
+        ((TextView)findViewById(R.id.tv_gps_id)).setText("GPS ID: " + vehicleData.gps_id);
 
         new getRealTimeGpsData().execute(vehicleData.gps_id);
     }

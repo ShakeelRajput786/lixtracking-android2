@@ -54,6 +54,9 @@ public class VehicleDetailActivity extends FragmentActivity {
         vehicleData.year = intent.getIntExtra(VehicleData.YEAR, 0);
         vehicleData.status = intent.getIntExtra(VehicleData.STATUS, 0);
 
+        vehicleData.speed = intent.getIntExtra(VehicleData.SPEED, 0);
+        vehicleData.vehicleIdentity = intent.getStringExtra(VehicleData.VEHICLE_IDENTITY);
+
         fragmentManager = getSupportFragmentManager();
         fragmentStack = new HashMap<String, Stack<Fragment>>();
         fragmentStack.put(TAB_TRACK, new Stack<Fragment>());

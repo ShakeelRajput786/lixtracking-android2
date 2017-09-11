@@ -12,6 +12,7 @@ import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.InflateException;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -19,6 +20,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -84,6 +86,8 @@ public class FragmentMap extends Fragment implements GoogleMap.OnInfoWindowClick
     private int updateInterval = 5000;
 
     TextView indicator = null;
+    //Button backButton = null;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -99,6 +103,15 @@ public class FragmentMap extends Fragment implements GoogleMap.OnInfoWindowClick
         try {
             view = layoutInflater.inflate(R.layout.fragment_map, container, false);
             indicator = (TextView)view.findViewById(R.id.textView);
+            /*backButton = (Button) view.findViewById(R.id.button);
+            backButton.setText("Back");
+            backButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Log.d("FragmentMap", " -- Back ButtonClicked");
+                    ///getFragmentManager().popBackStack();
+                }
+            });*/
 
             String s = this.getClass().getSimpleName();
             sharedPreferences = getActivity().getSharedPreferences(this.getClass().getSimpleName(),Context.MODE_PRIVATE);
@@ -181,6 +194,7 @@ public class FragmentMap extends Fragment implements GoogleMap.OnInfoWindowClick
     public void onStop() {
         super.onStop();
     }
+
     /**********************************************************************************************/
     /**/
     /**********************************************************************************************/
@@ -274,6 +288,8 @@ public class FragmentMap extends Fragment implements GoogleMap.OnInfoWindowClick
                 intent.putExtra(VehicleData.MAKE,vehicleDatas.get(i).make);
                 intent.putExtra(VehicleData.STATUS,vehicleDatas.get(i).status);
                 intent.putExtra(VehicleData.YEAR,vehicleDatas.get(i).year);
+                intent.putExtra(VehicleData.VEHICLE_IDENTITY,vehicleDatas.get(i).vehicleIdentity);
+                intent.putExtra(VehicleData.SPEED,vehicleDatas.get(i).speed);
                 //intent.putExtra(GpsData.GPS_ID, gpsDatas.get(i).gps_id);
                 //intent.putExtra(GpsData.SPEED,gpsDatas.get(i).speed);
                 //intent.putExtra(GpsData.GPS_TIME,gpsDatas.get(i).gps_time);
@@ -365,8 +381,6 @@ public class FragmentMap extends Fragment implements GoogleMap.OnInfoWindowClick
 
 //                        map.clear();
 //                        map.animateCamera(CameraUpdateFactory.newLatLngZoom(Constant.baseLatLng, currentZoom));
-
-
 
                         if(markerList.size() < vehicleDatas.size()) {
                             Marker marker = map.addMarker(new MarkerOptions()

@@ -174,7 +174,9 @@ public class TrackingHistoryActivity extends FragmentActivity implements View.On
         currentVehicle.make = intent.getStringExtra(VehicleData.MAKE);
         currentVehicle.year = intent.getIntExtra(VehicleData.YEAR, 0);
         currentVehicle.status = intent.getIntExtra(VehicleData.STATUS, 0);
-        
+        currentVehicle.speed = intent.getIntExtra(VehicleData.SPEED, 0);
+        currentVehicle.vehicleIdentity = intent.getStringExtra(VehicleData.VEHICLE_IDENTITY);
+
         dateFrom = intent.getStringExtra("FROM");
         dateTo = intent.getStringExtra("TO");
         

@@ -130,7 +130,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceLarge"
-                            android:text="Vehicle:"
+                            android:text="Vehicle Details:"
                             android:id="@+id/textView2"
                             android:layout_marginTop="23dp"
                             android:layout_alignParentTop="true"
@@ -149,7 +149,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="model"
+                            android:text="Model"
                             android:id="@+id/textView4"
                             android:layout_below="@+id/textView2"
                             android:layout_toLeftOf="@+id/textView3"
@@ -171,7 +171,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="make"
+                            android:text="Make"
                             android:id="@+id/textView6"
                             android:layout_below="@+id/textView3"
                             android:layout_toLeftOf="@+id/textView3"
@@ -209,7 +209,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="year"
+                            android:text="Year"
                             android:id="@+id/textView9"
                             android:layout_alignTop="@+id/textView8"
                             android:layout_alignParentLeft="true"
@@ -239,7 +239,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="stok number"
+                            android:text="Stock Number"
                             android:id="@+id/textView12"
                             android:layout_alignTop="@+id/textView11"
                             android:layout_alignParentLeft="true"
@@ -273,6 +273,7 @@
                                 android:layout_height="wrap_content"
                                 android:textAppearance="?android:attr/textAppearanceMedium"
                                 android:text="GPS ID"
+                                android:textColor="#FFFFFF"
                                 android:id="@+id/tv_gps_id"
                                 android:layout_alignParentTop="true"
                                 android:layout_alignParentLeft="true"

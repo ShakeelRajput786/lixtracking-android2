@@ -85,6 +85,11 @@ public class ParceVehicles {
                             vehicleData.status = Integer.parseInt(s);
                         }else if(current_tag.equals(VehicleData.USER_ID)) {
                             vehicleData.user_id = xpp.getText();
+                        }else if(current_tag.equals(VehicleData.VEHICLE_IDENTITY)) {
+                            vehicleData.vehicleIdentity = xpp.getText();
+                        }else if(current_tag.equals(VehicleData.SPEED)) {
+                            String s = xpp.getText();
+                            vehicleData.speed = Integer.parseInt(s);
                         }
                         break;
                     default: break;
