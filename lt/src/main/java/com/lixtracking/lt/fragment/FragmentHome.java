@@ -9,6 +9,7 @@ import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -207,12 +208,17 @@ public class FragmentHome extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int item, long l) {
                 String vin = ((TextView)view.findViewById(R.id.text4)).getText().toString();
-                vin = vin.substring(6);
+                vin = vin.substring(5);
                 VehicleData data = null;
                 for (int i = 0; i<vehicleDataList.size(); i++) {
                     data = vehicleDataList.get(i);
-                    if(data.vin.equals(vin))
+                    String dataVin=data.vin;
+                    Log.d("ANdorid:","datalistsize:" +dataVin);
+                    if(vin.equalsIgnoreCase(dataVin)){
+                        Log.d("ANdorid:","datalistsize:" +dataVin);
                         break;
+                    }
+
                 }
                 if(data != null) {
                     Intent intent = new Intent(context,VehicleDetailActivity.class);
