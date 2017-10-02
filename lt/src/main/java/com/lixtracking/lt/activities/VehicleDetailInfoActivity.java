@@ -7,7 +7,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.TextView;
 
 import com.lixtracking.lt.R;
@@ -62,8 +61,8 @@ public class VehicleDetailInfoActivity extends Activity{
         vehicleData.vehicleIdentity = intent.getStringExtra(VehicleData.VEHICLE_IDENTITY);
 
         ((TextView)findViewById(R.id.text1)).setText(vehicleData.first_name + " " + vehicleData.last_name);
-        ((TextView)findViewById(R.id.text2)).setText("User ID: " + vehicleData.user_id);
-        ((TextView)findViewById(R.id.text3)).setText("VIN: " + vehicleData.vin);
+        ((TextView)findViewById(R.id.tvGPSID)).setText("User ID: " + vehicleData.user_id);
+        ((TextView)findViewById(R.id.tvVehicleId)).setText("VIN: " + vehicleData.vin);
         ((TextView)findViewById(R.id.textView5)).setText(vehicleData.model);
         ((TextView)findViewById(R.id.textView7)).setText(vehicleData.make);
         ((TextView)findViewById(R.id.textView10)).setText(Integer.toString(vehicleData.year));

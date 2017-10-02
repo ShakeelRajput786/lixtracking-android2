@@ -469,7 +469,8 @@ public class TrackingHistoryActivity extends FragmentActivity implements View.On
                         
                         // Map
                         CameraUpdate cameraUpdate = CameraUpdateFactory.newLatLngZoom(firstPoint, currentZoom);
-                        map.moveCamera(cameraUpdate);
+                        //map.animateCamera();(cameraUpdate);
+                        map.animateCamera(cameraUpdate);
                         currentMarker = map.addMarker(new MarkerOptions()
                                                               .icon(BitmapDescriptorFactory.fromResource(R.drawable.car_top_37x37))
                                                               .anchor(0.5f, 0.5f)
@@ -519,7 +520,7 @@ public class TrackingHistoryActivity extends FragmentActivity implements View.On
                             polyline = map.addPolyline(polylineOptions);
                             addFirstLast(gpsPoints.get(currentIndex));
                             map.animateCamera(CameraUpdateFactory.newLatLng(gpsPoints.get(currentIndex)));
-                            map.moveCamera(CameraUpdateFactory.newLatLng(gpsPoints.get(currentIndex)));
+                            map.animateCamera(CameraUpdateFactory.newLatLng(gpsPoints.get(currentIndex)));
                             updateTrackingView();
                             stepText.setText(Integer.toString(currentIndex + 1) + "(" + Integer.toString(gpsPoints.size()) + ")");
                             currentIndex++;

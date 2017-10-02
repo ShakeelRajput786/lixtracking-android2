@@ -149,7 +149,7 @@ public class FragmentHistory extends Fragment {
 
         adapter = new SimpleAdapter(getActivity(), listObjects ,R.layout.select_history_item,
                 new String[]{TITLE,FROM,TO,},
-                new int[]{R.id.text1, R.id.text2,R.id.text3});
+                new int[]{R.id.text1, R.id.tvGPSID,R.id.tvVehicleId});
         listView.setAdapter(adapter);
         listView.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
 

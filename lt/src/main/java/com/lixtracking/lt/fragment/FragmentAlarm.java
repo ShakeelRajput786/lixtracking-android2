@@ -4,60 +4,21 @@ package com.lixtracking.lt.fragment;
  * Created by saiber on 26.03.2014.
  */
 
-import android.app.AlertDialog;
-import android.content.Context;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.ListView;
-import android.widget.ProgressBar;
-import android.widget.SimpleAdapter;
-import android.widget.TextView;
 
-import com.lixtracking.lt.MainActivity;
 import com.lixtracking.lt.R;
-import com.lixtracking.lt.activities.AlertMapActivity;
-import com.lixtracking.lt.common.Settings;
-import com.lixtracking.lt.common.URL;
-import com.lixtracking.lt.data_class.AlertData;
-import com.lixtracking.lt.parsers.ParseAlertList;
-
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.NameValuePair;
-import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.entity.UrlEncodedFormEntity;
-import org.apache.http.client.methods.HttpPost;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.message.BasicNameValuePair;
-import org.apache.http.params.BasicHttpParams;
-import org.apache.http.params.HttpConnectionParams;
-import org.apache.http.params.HttpParams;
-import org.apache.http.util.EntityUtils;
-
-import java.io.IOException;
-import java.io.UnsupportedEncodingException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
 
 public class FragmentAlarm extends Fragment{
-    private static final String ALERT_TIME = "alert_time";
+   /* private static final String ALERT_TIME = "alert_time";
     private static final String GPS_ID = "gps_id";
     private static final String ALERT_ID = "alert_id";
     private static final String ID = "id";
 
-    private View view;
+
     private Context context;
     private ArrayList<HashMap<String, Object>> listObjects = null;
     private ListView listView;
@@ -66,8 +27,8 @@ public class FragmentAlarm extends Fragment{
     AsyncTask task = null;
     ProgressBar progressBar = null;
     TextView message = null;
-    private boolean isRunning = false;
-
+    private boolean isRunning = false;*/
+   private View view;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -77,12 +38,12 @@ public class FragmentAlarm extends Fragment{
     @Override
     public View onCreateView(LayoutInflater layoutInflater, ViewGroup container, Bundle savedInstanceSatte) {
         view = layoutInflater.inflate(R.layout.fragment_vehicle_alarm, container, false);
-        progressBar = (ProgressBar)view.findViewById(R.id.loading_spinner);
+       /* progressBar = (ProgressBar)view.findViewById(R.id.loading_spinner);
         message = (TextView)view.findViewById(R.id.textView);
-        listView = (ListView)view.findViewById(R.id.listView);
+        listView = (ListView)view.findViewById(R.id.listView);*/
         return view;
     }
-    @Override
+  /*  @Override
     public void onResume() {
         super.onResume();
         //vehicleData = ((VehicleDetailActivity)getActivity()).vehicleData;
@@ -117,9 +78,9 @@ public class FragmentAlarm extends Fragment{
         }
         return true;
     }
-    /**********************************************************************************************/
-    /**/
-    /**********************************************************************************************/
+    *//**********************************************************************************************//*
+    *//**//*
+    *//**********************************************************************************************//*
     class getAlertDataListTask extends AsyncTask<Void, Void, String> {
         private String resultString = null;
         @Override
@@ -200,7 +161,7 @@ public class FragmentAlarm extends Fragment{
                         + data.alert_time.substring(12,14);
                 HashMap<String, Object>item = new HashMap<String, Object>();
                 item.put(ID,Integer.toString(i+1));
-                item.put(AlertData.ALERT_ID, data.alert_id);
+                item.put(ALERT_ID, data.alert_id);
                 item.put(AlertData.USER_ID, data.user_id);
                 item.put(AlertData.ALERT_TIME, date);
                 item.put(AlertData.ALERT_TYPE, data.gps_id);
@@ -217,7 +178,7 @@ public class FragmentAlarm extends Fragment{
             listView.setAdapter(null);
             SimpleAdapter adapter = new SimpleAdapter(getActivity(), listObjects ,R.layout.alarm_item,
                     new String[]{ID, AlertData.ALERT_TYPE, AlertData.ALERT_TIME, AlertData.ALERT_MESSAGE},
-                    new int[]{R.id.u_id, R.id.text1, R.id.text2, R.id.text3});
+                    new int[]{R.id.u_id, R.id.text1, R.id.tvGPSID, R.id.tvVehicleId});
             listView.setAdapter(adapter);
             listView.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
             listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -231,5 +192,5 @@ public class FragmentAlarm extends Fragment{
                 }
             });
         }
-    }
+    }*/
 }

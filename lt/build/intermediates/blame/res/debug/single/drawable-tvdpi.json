@@ -1,22 +1,42 @@
 [
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/drawable-tvdpi/ic_plusone_small_off_client.png",
-        "source": "/home/vcareall/.android/build-cache/5b018e05e3fceec84dd79a845e4c26a9e8004033/output/res/drawable-tvdpi/ic_plusone_small_off_client.png"
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\ic_plusone_tall_off_client.png",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\8a7240cbd4f2cd56582ea107a96a96a514d0a214\\output\\res\\drawable-tvdpi\\ic_plusone_tall_off_client.png"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/drawable-tvdpi/ic_plusone_standard_off_client.png",
-        "source": "/home/vcareall/.android/build-cache/5b018e05e3fceec84dd79a845e4c26a9e8004033/output/res/drawable-tvdpi/ic_plusone_standard_off_client.png"
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\ic_plusone_tall_off_client.png",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\131ee94622b8cc04c19f96fad31bc011193dd0b5\\output\\res\\drawable-tvdpi\\ic_plusone_tall_off_client.png"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/drawable-tvdpi/ic_plusone_tall_off_client.png",
-        "source": "/home/vcareall/.android/build-cache/5b018e05e3fceec84dd79a845e4c26a9e8004033/output/res/drawable-tvdpi/ic_plusone_tall_off_client.png"
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\ic_plusone_medium_off_client.png",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\8a7240cbd4f2cd56582ea107a96a96a514d0a214\\output\\res\\drawable-tvdpi\\ic_plusone_medium_off_client.png"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/drawable-tvdpi/ic_plusone_medium_off_client.png",
-        "source": "/home/vcareall/.android/build-cache/5b018e05e3fceec84dd79a845e4c26a9e8004033/output/res/drawable-tvdpi/ic_plusone_medium_off_client.png"
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\ic_plusone_medium_off_client.png",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\131ee94622b8cc04c19f96fad31bc011193dd0b5\\output\\res\\drawable-tvdpi\\ic_plusone_medium_off_client.png"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/drawable-tvdpi/common_full_open_on_phone.png",
-        "source": "/home/vcareall/.android/build-cache/37dee8398cc5ed092a9735f25a83108afb974ac7/output/res/drawable-tvdpi/common_full_open_on_phone.png"
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\ic_plusone_standard_off_client.png",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\8a7240cbd4f2cd56582ea107a96a96a514d0a214\\output\\res\\drawable-tvdpi\\ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_full_open_on_phone.png",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\eaa3f135fb6313a03ef10afbd521cd23e4734a61\\output\\res\\drawable-tvdpi\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\ic_plusone_small_off_client.png",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\8a7240cbd4f2cd56582ea107a96a96a514d0a214\\output\\res\\drawable-tvdpi\\ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_full_open_on_phone.png",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\aa798f104468c12610d15e6bb5ee5e094f4fb74f\\output\\res\\drawable-tvdpi\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\ic_plusone_small_off_client.png",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\131ee94622b8cc04c19f96fad31bc011193dd0b5\\output\\res\\drawable-tvdpi\\ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\ic_plusone_standard_off_client.png",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\131ee94622b8cc04c19f96fad31bc011193dd0b5\\output\\res\\drawable-tvdpi\\ic_plusone_standard_off_client.png"
     }
 ]

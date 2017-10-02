@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "outputFile": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,20 +11,20 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "file": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 291,
+                        "startOffset": 295,
                         "endColumn": 57,
-                        "endOffset": 344
+                        "endOffset": 348
                     }
                 }
             }
         ]
     },
     {
-        "outputFile": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+        "outputFile": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -35,13 +35,13 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/res/values-w820dp/dimens.xml",
+                    "file": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 291,
+                        "startOffset": 295,
                         "endColumn": 57,
-                        "endOffset": 344
+                        "endOffset": 348
                     }
                 }
             }

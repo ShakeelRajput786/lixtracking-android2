@@ -1,50 +1,50 @@
 [
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
-        "source": "/home/vcareall/.android/build-cache/4c0e9339076cb081efa022b72a60d51381cf9333/output/res/layout-v11/notification_media_cancel_action.xml"
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\2181f131a6026738c47706194b95baa7e0dea664\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
-        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/C:\\Users\\dell\\.android\\build-cache\\ce0cf3658687a50551f156a33446a40cc3038135\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\80d3eafea4c893fe930f81cfb7d34b3938ae034f\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
-        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/C:\\Users\\dell\\.android\\build-cache\\ce0cf3658687a50551f156a33446a40cc3038135\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\2181f131a6026738c47706194b95baa7e0dea664\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",
-        "source": "/home/vcareall/.android/build-cache/4c0e9339076cb081efa022b72a60d51381cf9333/output/res/layout-v11/notification_template_big_media_custom.xml"
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\80d3eafea4c893fe930f81cfb7d34b3938ae034f\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
-        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/C:\\Users\\dell\\.android\\build-cache\\ce0cf3658687a50551f156a33446a40cc3038135\\output\\res\\layout-v11\\notification_media_action.xml"
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\2181f131a6026738c47706194b95baa7e0dea664\\output\\res\\layout-v11\\notification_media_action.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/layout-v11/notification_media_action.xml",
-        "source": "/home/vcareall/.android/build-cache/4c0e9339076cb081efa022b72a60d51381cf9333/output/res/layout-v11/notification_media_action.xml"
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\80d3eafea4c893fe930f81cfb7d34b3938ae034f\\output\\res\\layout-v11\\notification_template_big_media.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
-        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/C:\\Users\\dell\\.android\\build-cache\\ce0cf3658687a50551f156a33446a40cc3038135\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\2181f131a6026738c47706194b95baa7e0dea664\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media.xml",
-        "source": "/home/vcareall/.android/build-cache/4c0e9339076cb081efa022b72a60d51381cf9333/output/res/layout-v11/notification_template_big_media.xml"
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\80d3eafea4c893fe930f81cfb7d34b3938ae034f\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
-        "source": "/home/vcareall/.android/build-cache/4c0e9339076cb081efa022b72a60d51381cf9333/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\2181f131a6026738c47706194b95baa7e0dea664\\output\\res\\layout-v11\\notification_template_big_media.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
-        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/C:\\Users\\dell\\.android\\build-cache\\ce0cf3658687a50551f156a33446a40cc3038135\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\2181f131a6026738c47706194b95baa7e0dea664\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow.xml",
-        "source": "/home/vcareall/.android/build-cache/4c0e9339076cb081efa022b72a60d51381cf9333/output/res/layout-v11/notification_template_big_media_narrow.xml"
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\80d3eafea4c893fe930f81cfb7d34b3938ae034f\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
-        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/C:\\Users\\dell\\.android\\build-cache\\ce0cf3658687a50551f156a33446a40cc3038135\\output\\res\\layout-v11\\notification_template_big_media.xml"
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\80d3eafea4c893fe930f81cfb7d34b3938ae034f\\output\\res\\layout-v11\\notification_media_action.xml"
     }
 ]

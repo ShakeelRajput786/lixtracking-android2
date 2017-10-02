@@ -14,8 +14,10 @@
     <string name="about_lite_2">This software provide monitoring location on the map of vehicles.</string>
     <string name="about_lite_3">This software need to be networked, will produce the internet traffic, traffic fee charging standard please refer to the telecom operators.</string>
     <string name="web_site_link">http://216.55.141.100:8080</string>
-    <color name="background_light">#ffc1c1c1</color>
-    <color name="dark_gray">#ff858585</color>
+    <color name="background_light">#ff61aeff</color>
+    <color name="dark_gray">#ff0065ff</color>
+    <!--<color name="background_light">#ffc1c1c1</color>-->
+    <!--<color name="dark_gray">#ff858585</color>-->
     <color name="light_blue">#ff61aeff</color>
     <color name="text_light">#ffe2b484</color>
     <color name="text_label">#ff000000</color>
@@ -25,6 +27,12 @@
     <color name="menu_button_selected">#ff7d840b</color>
     <color name="menu_button_unselected">#ffbad119</color>
     <color name="actionbar_bg">#B4ff9700</color>
+    <string name="title_activity_tab_main">ActivityTabMain</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tab_new">ActivityTabNew</string>
 
 
 </resources>

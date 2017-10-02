@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/layout-v17/mr_media_route_list_item.xml",
-        "source": "/home/vcareall/.android/build-cache/a8b47eaea9ad5845e673d9bf190a314caf755e96/output/res/layout-v17/mr_media_route_list_item.xml"
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\layout-v17\\mr_media_route_list_item.xml",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\56217520e225244278816f538a17bbcd0f754483\\output\\res\\layout-v17\\mr_media_route_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\layout-v17\\mr_media_route_list_item.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\484e9e20ea5f52949772d4bee8958673c7e4ba89\\output\\res\\layout-v17\\mr_media_route_list_item.xml"
     }
 ]

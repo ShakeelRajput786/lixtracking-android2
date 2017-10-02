@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AndroidApp.iml" filepath="$PROJECT_DIR$/AndroidApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lixtracking-android.iml" filepath="$PROJECT_DIR$/lixtracking-android.iml" />
       <module fileurl="file://$PROJECT_DIR$/lt/lt.iml" filepath="$PROJECT_DIR$/lt/lt.iml" />
     </modules>
   </component>

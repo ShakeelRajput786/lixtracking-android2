@@ -1,130 +1,206 @@
 [
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/home/vcareall/.android/build-cache/4c0e9339076cb081efa022b72a60d51381cf9333/output/res/anim/abc_fade_in.xml"
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\1dd833b32684618f363cb9f004b0a7b6c4a9caf4\\output\\res\\anim\\design_fab_out.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/home/vcareall/.android/build-cache/4c0e9339076cb081efa022b72a60d51381cf9333/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\2181f131a6026738c47706194b95baa7e0dea664\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/C:\\Users\\dell\\.android\\build-cache\\ce0cf3658687a50551f156a33446a40cc3038135\\output\\res\\anim\\abc_fade_out.xml"
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\80d3eafea4c893fe930f81cfb7d34b3938ae034f\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\moveto.xml",
-        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\src\\main\\res\\anim\\moveto.xml"
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\2181f131a6026738c47706194b95baa7e0dea664\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/C:\\Users\\dell\\.android\\build-cache\\ce0cf3658687a50551f156a33446a40cc3038135\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\in_a.xml",
+        "source": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\src\\main\\res\\anim\\in_a.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
-        "source": "/home/vcareall/.android/build-cache/4c0e9339076cb081efa022b72a60d51381cf9333/output/res/anim/abc_slide_out_bottom.xml"
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\out.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\anim\\out.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/home/vcareall/.android/build-cache/4c0e9339076cb081efa022b72a60d51381cf9333/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\801aa535f527f126eb789981adb353c844ecada2\\output\\res\\anim\\design_snackbar_out.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
-        "source": "/home/vcareall/.android/build-cache/4c0e9339076cb081efa022b72a60d51381cf9333/output/res/anim/abc_popup_exit.xml"
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\80d3eafea4c893fe930f81cfb7d34b3938ae034f\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/C:\\Users\\dell\\.android\\build-cache\\ce0cf3658687a50551f156a33446a40cc3038135\\output\\res\\anim\\abc_slide_in_top.xml"
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\2181f131a6026738c47706194b95baa7e0dea664\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
-        "source": "/home/vcareall/.android/build-cache/4c0e9339076cb081efa022b72a60d51381cf9333/output/res/anim/abc_slide_in_bottom.xml"
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\80d3eafea4c893fe930f81cfb7d34b3938ae034f\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/C:\\Users\\dell\\.android\\build-cache\\ce0cf3658687a50551f156a33446a40cc3038135\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\2181f131a6026738c47706194b95baa7e0dea664\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/anim/moveto.xml",
-        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/res/anim/moveto.xml"
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\2181f131a6026738c47706194b95baa7e0dea664\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/anim/out_a.xml",
-        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/res/anim/out_a.xml"
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\in_a.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\anim\\in_a.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\alfa.xml",
-        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\src\\main\\res\\anim\\alfa.xml"
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\out_a.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\anim\\out_a.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
-        "source": "/home/vcareall/.android/build-cache/4c0e9339076cb081efa022b72a60d51381cf9333/output/res/anim/abc_slide_out_top.xml"
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\1dd833b32684618f363cb9f004b0a7b6c4a9caf4\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\in.xml",
-        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\src\\main\\res\\anim\\in.xml"
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\1dd833b32684618f363cb9f004b0a7b6c4a9caf4\\output\\res\\anim\\design_snackbar_out.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/anim/alfa.xml",
-        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/res/anim/alfa.xml"
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\moveto.xml",
+        "source": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\src\\main\\res\\anim\\moveto.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/C:\\Users\\dell\\.android\\build-cache\\ce0cf3658687a50551f156a33446a40cc3038135\\output\\res\\anim\\abc_slide_in_bottom.xml"
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\alfa.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\anim\\alfa.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/anim/out.xml",
-        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/res/anim/out.xml"
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\801aa535f527f126eb789981adb353c844ecada2\\output\\res\\anim\\design_snackbar_in.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
-        "source": "/home/vcareall/.android/build-cache/4c0e9339076cb081efa022b72a60d51381cf9333/output/res/anim/abc_popup_enter.xml"
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\801aa535f527f126eb789981adb353c844ecada2\\output\\res\\anim\\design_fab_in.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/C:\\Users\\dell\\.android\\build-cache\\ce0cf3658687a50551f156a33446a40cc3038135\\output\\res\\anim\\abc_slide_out_bottom.xml"
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\1dd833b32684618f363cb9f004b0a7b6c4a9caf4\\output\\res\\anim\\design_fab_in.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/anim/in.xml",
-        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/res/anim/in.xml"
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\80d3eafea4c893fe930f81cfb7d34b3938ae034f\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/C:\\Users\\dell\\.android\\build-cache\\ce0cf3658687a50551f156a33446a40cc3038135\\output\\res\\anim\\abc_slide_out_top.xml"
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\80d3eafea4c893fe930f81cfb7d34b3938ae034f\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/C:\\Users\\dell\\.android\\build-cache\\ce0cf3658687a50551f156a33446a40cc3038135\\output\\res\\anim\\abc_popup_enter.xml"
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\801aa535f527f126eb789981adb353c844ecada2\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/C:\\Users\\dell\\.android\\build-cache\\ce0cf3658687a50551f156a33446a40cc3038135\\output\\res\\anim\\abc_fade_in.xml"
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\slide_right_in.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\anim\\slide_right_in.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/C:\\Users\\dell\\.android\\build-cache\\ce0cf3658687a50551f156a33446a40cc3038135\\output\\res\\anim\\abc_popup_exit.xml"
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\80d3eafea4c893fe930f81cfb7d34b3938ae034f\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
-        "source": "/home/vcareall/.android/build-cache/4c0e9339076cb081efa022b72a60d51381cf9333/output/res/anim/abc_slide_in_top.xml"
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\2181f131a6026738c47706194b95baa7e0dea664\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
-        "source": "/home/vcareall/.android/build-cache/4c0e9339076cb081efa022b72a60d51381cf9333/output/res/anim/abc_fade_out.xml"
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\splash_animation.xml",
+        "source": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\src\\main\\res\\anim\\splash_animation.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\in_a.xml",
-        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\src\\main\\res\\anim\\in_a.xml"
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\80d3eafea4c893fe930f81cfb7d34b3938ae034f\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\out.xml",
-        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\src\\main\\res\\anim\\out.xml"
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\1dd833b32684618f363cb9f004b0a7b6c4a9caf4\\output\\res\\anim\\design_snackbar_in.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\out_a.xml",
-        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/D:\\Installers\\ANDROID\\LixTrackingProject\\AndroidApp\\lt\\src\\main\\res\\anim\\out_a.xml"
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\out.xml",
+        "source": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\src\\main\\res\\anim\\out.xml"
     },
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/anim/in_a.xml",
-        "source": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/res/anim/in_a.xml"
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\801aa535f527f126eb789981adb353c844ecada2\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\scale_up.xml",
+        "source": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\src\\main\\res\\anim\\scale_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\80d3eafea4c893fe930f81cfb7d34b3938ae034f\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\80d3eafea4c893fe930f81cfb7d34b3938ae034f\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\2181f131a6026738c47706194b95baa7e0dea664\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\in.xml",
+        "source": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\src\\main\\res\\anim\\in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\scale_up.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\anim\\scale_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\801aa535f527f126eb789981adb353c844ecada2\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\scale_test.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\anim\\scale_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\2181f131a6026738c47706194b95baa7e0dea664\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\80d3eafea4c893fe930f81cfb7d34b3938ae034f\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\moveto.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\anim\\moveto.xml"
+    },
+    {
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\alfa.xml",
+        "source": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\src\\main\\res\\anim\\alfa.xml"
+    },
+    {
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\1dd833b32684618f363cb9f004b0a7b6c4a9caf4\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\2181f131a6026738c47706194b95baa7e0dea664\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\2181f131a6026738c47706194b95baa7e0dea664\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\out_a.xml",
+        "source": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\src\\main\\res\\anim\\out_a.xml"
+    },
+    {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\splash_animation.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\anim\\splash_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\my_layout_animation.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\anim\\my_layout_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\in.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\anim\\in.xml"
     }
 ]

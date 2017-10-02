@@ -122,6 +122,7 @@ public class FragmentHome extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
+
     }
     @Override
     public View onCreateView(LayoutInflater layoutInflater, ViewGroup container, Bundle savedInstanceSatte) {
@@ -181,6 +182,7 @@ public class FragmentHome extends Fragment {
         toggleButton1.setTextColor(Color.parseColor("#ffffff"));
         toggleButton2.setTextColor(Color.parseColor("#000000"));
         toggleButton3.setTextColor(Color.parseColor("#000000"));
+
         return view;
     }
     @Override
@@ -191,7 +193,7 @@ public class FragmentHome extends Fragment {
                     /*new String[]{ICON,ID,GPS_ID,VEHICLE_IDENTITY,SPEED},
                     new int[]{R.id.icon,R.id.u_id, R.id.text2,R.id.text3, R.id.text5});*/
                     new String[]{ICON,ID,NAME, GPS_ID,VEHICLE_IDENTITY,VIN, STATUS, SPEED},
-                    new int[]{R.id.icon,R.id.u_id, R.id.text1, R.id.text2,R.id.text3, R.id.text4, R.id.text5, R.id.text6});
+                    new int[]{R.id.icon,R.id.u_id, R.id.text1, R.id.tvGPSID,R.id.tvVehicleId, R.id.text4, R.id.text5, R.id.text6});
             listView.setAdapter(adapter);
             listView.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
             listView.setSelection(listViewCurrentPosition);
@@ -350,7 +352,7 @@ public class FragmentHome extends Fragment {
                 if(MainActivity.getCurrentFragmentTag() == MainActivity.TAB_HOME) {
                     SimpleAdapter adapter = new SimpleAdapter(getActivity(), listObjects ,R.layout.vehicle_item,
                             new String[]{ICON,ID,NAME, GPS_ID,VEHICLE_IDENTITY, STATUS, SPEED},
-                            new int[]{R.id.icon,R.id.u_id, R.id.text1, R.id.text2,R.id.text3,R.id.text4,R.id.text5,R.id.text6});
+                            new int[]{R.id.icon,R.id.u_id, R.id.text1, R.id.tvGPSID,R.id.tvVehicleId,R.id.text4,R.id.text5,R.id.text6});
                     listView.setAdapter(adapter);
                     listView.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE);
                 }
@@ -452,7 +454,7 @@ public class FragmentHome extends Fragment {
             if(MainActivity.getCurrentFragmentTag() == MainActivity.TAB_HOME) {
                 adapter = new SimpleAdapter(getActivity(), listObjects ,R.layout.vehicle_item,
                         new String[]{ICON,ID,NAME, GPS_ID,VEHICLE_IDENTITY,VIN, STATUS, SPEED},
-                        new int[]{R.id.icon,R.id.u_id, R.id.text1, R.id.text2,R.id.text3, R.id.text4, R.id.text5, R.id.text6});
+                        new int[]{R.id.icon,R.id.u_id, R.id.text1, R.id.tvGPSID,R.id.tvVehicleId, R.id.text4, R.id.text5, R.id.text6});
                 /*new String[]{ICON,ID,NAME,GPS_ID,VEHICLE_IDENTITY,VIN, SPEED},
                         new int[]{R.id.icon,R.id.u_id, R.id.text1, R.id.text2,R.id.text3, R.id.text4, R.id.text5});*/
                 listView.setAdapter(adapter);

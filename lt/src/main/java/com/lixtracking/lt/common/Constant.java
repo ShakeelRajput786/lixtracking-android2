@@ -8,4 +8,5 @@ import com.google.android.gms.maps.model.LatLng;
 public class Constant {
     public static final float mapZoom = 18;
     public static final LatLng baseLatLng = new LatLng(40.689205150004625,-74.04442101716995);
+    public static final int delay=60000;    //10 seconds delay
 }

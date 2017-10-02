@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.app.SearchManager;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -117,7 +116,7 @@ public class SerchResultActivity extends Activity {
 
                 SimpleAdapter adapter = new SimpleAdapter(this, listObjects ,R.layout.vehicle_item,
                         new String[]{ICON,ID,NAME, GPS_ID,VEHICLE_IDENTITY, VIN, STATUS, SPEED},
-                        new int[]{R.id.icon,R.id.u_id, R.id.text1, R.id.text2,R.id.text3, R.id.text4, R.id.text5, R.id.text6});
+                        new int[]{R.id.icon,R.id.u_id, R.id.text1, R.id.tvGPSID,R.id.tvVehicleId, R.id.text4, R.id.text5, R.id.text6});
                 /*new String[]{ICON,ID,NAME,GPS_ID,STOCK_NUMBER,VIN, STATUS},
                         new int[]{R.id.icon,R.id.u_id, R.id.text1, R.id.text2,R.id.text3, R.id.text4, R.id.text5});*/
                 listView.setAdapter(adapter);

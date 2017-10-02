@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/build/intermediates/res/merged/debug/raw/gtm_analytics",
-        "source": "/home/vcareall/.android/build-cache/a190407a0bdeef58a5834dff3826160209f85b3a/output/res/raw/gtm_analytics"
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\dac6f3276b72795c953188c2a6b0e57105b1d982\\output\\res\\raw\\gtm_analytics"
+    },
+    {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\fe636808a1baa555b45bd83791f8f77205dde67c\\output\\res\\raw\\gtm_analytics"
     }
 ]

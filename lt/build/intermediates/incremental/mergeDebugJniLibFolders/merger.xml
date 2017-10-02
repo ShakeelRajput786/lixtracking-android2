@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/home/vcareall/programming/Shashank code/LixTrackingProject/AndroidApp/lt/src/debug/jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\debug\jniLibs"/></dataSet></merger>

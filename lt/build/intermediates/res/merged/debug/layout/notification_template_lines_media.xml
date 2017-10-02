@@ -65,7 +65,7 @@
             android:paddingStart="8dp"
         />
     </LinearLayout>
-    <TextView android:id="@+id/text2"
+    <TextView android:id="@+id/tvGPSID"
         android:textAppearance="@style/TextAppearance.AppCompat.Notification.Line2.Media"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
