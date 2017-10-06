@@ -5,16 +5,16 @@ import android.os.Bundle;
 
 import com.lixtracking.lt.R;
 
-/**
- * Created by saiber on 15.04.2014.
- */
 public class AboutActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.about_activity_layout);
-
-//        ActionBar ab = getActionBar();
-//        ab.setDisplayHomeAsUpEnabled(true);
+    }
+    @Override
+    public void onBackPressed() {
+        // TODO Auto-generated method stub
+        super.onBackPressed();
+        overridePendingTransition(R.anim.anim_slide_in_right,R.anim.anim_slide_out_right);
     }
 }

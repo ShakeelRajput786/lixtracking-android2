@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\xml\\pref_headers.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\xml\\pref_headers.xml"
+    },
+    {
         "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\xml\\data.xml",
         "source": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\src\\main\\res\\xml\\data.xml"
     },
@@ -8,8 +12,20 @@
         "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\xml\\data.xml"
     },
     {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\xml\\pref_general.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\xml\\pref_general.xml"
+    },
+    {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\xml\\pref_data_sync.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\xml\\pref_data_sync.xml"
+    },
+    {
         "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\xml\\searchable.xml",
         "source": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\src\\main\\res\\xml\\searchable.xml"
+    },
+    {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\xml\\pref_notification.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\xml\\pref_notification.xml"
     },
     {
         "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\xml\\searchable.xml",

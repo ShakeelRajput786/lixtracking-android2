@@ -3,7 +3,6 @@ package com.lixtracking.lt.activities;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
@@ -11,9 +10,7 @@ import android.widget.TimePicker;
 
 import com.lixtracking.lt.R;
 
-/**
- * Created by saiber on 09.04.2014.
- */
+
 public class SetCustomDateTime extends Activity implements DatePicker.OnDateChangedListener{
     private TimePicker timePicker = null;
     private DatePicker datePicker = null;

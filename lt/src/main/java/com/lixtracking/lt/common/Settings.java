@@ -10,6 +10,7 @@ import com.lixtracking.lt.R;
  */
 public class Settings {
     private static final String USER_ID = "user_id";
+    private static final String GROUP_BY = "group_by";
     private static final String USER_PASSWORD = "user_password";
     private static final String SAVE_LOGIN = "save_login";
     private static final String LOGIN = "u_login";
@@ -21,6 +22,15 @@ public class Settings {
     public Settings(Context context) {
         settings = context.getSharedPreferences(context.getResources().getString(R.string.app_name),Context.MODE_PRIVATE);
     }
+    public void setGroupBy(String groupBy) {
+        SharedPreferences.Editor editor = settings.edit();
+        editor.putString(GROUP_BY, groupBy);
+        editor.commit();
+    }
+    public String getGroupBy() {
+        return settings.getString(GROUP_BY, "Year");
+    }
+
     public void setUserId(String userId) {
         SharedPreferences.Editor editor = settings.edit();
         editor.putString(USER_ID, userId);
@@ -29,6 +39,7 @@ public class Settings {
     public String getUserId() {
         return settings.getString(USER_ID, "");
     }
+
     public void setUserPassword(String password) {
         SharedPreferences.Editor editor = settings.edit();
         editor.putString(USER_PASSWORD, password);

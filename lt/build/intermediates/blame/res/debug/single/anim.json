@@ -20,6 +20,10 @@
         "source": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\src\\main\\res\\anim\\in_a.xml"
     },
     {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\anim_slide_out_right.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\anim\\anim_slide_out_right.xml"
+    },
+    {
         "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\out.xml",
         "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\anim\\out.xml"
     },
@@ -96,12 +100,20 @@
         "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\801aa535f527f126eb789981adb353c844ecada2\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
     },
     {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\anim_slide_in_right.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\anim\\anim_slide_in_right.xml"
+    },
+    {
         "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\slide_right_in.xml",
         "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\anim\\slide_right_in.xml"
     },
     {
         "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
         "source": "C:\\Users\\shakeel\\.android\\build-cache\\80d3eafea4c893fe930f81cfb7d34b3938ae034f\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\anim\\slide_out.xml"
     },
     {
         "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
@@ -144,6 +156,14 @@
         "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\2181f131a6026738c47706194b95baa7e0dea664\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\anim_slide_in_left.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\anim\\anim_slide_in_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\anim\\slide_in.xml"
+    },
+    {
         "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\in.xml",
         "source": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\src\\main\\res\\anim\\in.xml"
     },
@@ -174,6 +194,10 @@
     {
         "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\alfa.xml",
         "source": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\src\\main\\res\\anim\\alfa.xml"
+    },
+    {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\anim_slide_out_left.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\anim\\anim_slide_out_left.xml"
     },
     {
         "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",

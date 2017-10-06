@@ -85,6 +85,12 @@ public class ActivityMoreNew extends AppCompatActivity {
         item.put(ICON, R.drawable.ic_action_view_as_grid_dark);
         listObjects.add(item);
 
+        item = new HashMap<String, Object>();
+        item.put(TITLE, "Settings");
+        item.put(DESCRIPTION, " Custom setting of Application");
+        item.put(ICON, R.drawable.ic_setting_light);
+        listObjects.add(item);
+
         SimpleAdapter adapter = new SimpleAdapter(getApplicationContext(), listObjects, R.layout.settings_item,
                 new String[]{ICON, TITLE, DESCRIPTION},
                 new int[]{R.id.icon, R.id.text1, R.id.textView});
@@ -98,14 +104,22 @@ public class ActivityMoreNew extends AppCompatActivity {
                     case 0:
                         Intent intent = new Intent(getApplicationContext(), ChangePasswordActivity.class);
                         startActivity(intent);
+                        overridePendingTransition(R.anim.anim_slide_in_left,R.anim.anim_slide_out_left);
                         break;
                     case 1:
                         Intent intent1 = new Intent(getApplicationContext(), AboutActivity.class);
                         startActivity(intent1);
+                        overridePendingTransition(R.anim.anim_slide_in_left,R.anim.anim_slide_out_left);
                         break;
                     case 2:
                         Intent intent2 = new Intent(getApplicationContext(), FunctionActivity.class);
                         startActivity(intent2);
+                        overridePendingTransition(R.anim.anim_slide_in_left,R.anim.anim_slide_out_left);
+                        break;
+                    case 3:
+                        Intent intent3 = new Intent(getApplicationContext(), SettingsActivity.class);
+                        startActivity(intent3);
+                        overridePendingTransition(R.anim.anim_slide_in_left,R.anim.anim_slide_out_left);
                         break;
 
                 }

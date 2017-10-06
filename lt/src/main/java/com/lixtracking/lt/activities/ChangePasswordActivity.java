@@ -22,4 +22,10 @@ public class ChangePasswordActivity extends Activity{
         tvChangePasswordTitle=(TextView)findViewById(R.id.tvChangePasswordTitle);
         tvChangePasswordTitle.setTypeface(typeface);
     }
+    @Override
+    public void onBackPressed() {
+        // TODO Auto-generated method stub
+        super.onBackPressed();
+        overridePendingTransition(R.anim.anim_slide_in_right,R.anim.anim_slide_out_right);
+    }
 }

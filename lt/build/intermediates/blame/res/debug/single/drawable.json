@@ -12,12 +12,12 @@
         "source": "C:\\Users\\shakeel\\.android\\build-cache\\56217520e225244278816f538a17bbcd0f754483\\output\\res\\drawable\\mr_ic_settings_light.xml"
     },
     {
-        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\shakeel\\.android\\build-cache\\80d3eafea4c893fe930f81cfb7d34b3938ae034f\\output\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
         "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_b_layer_btn.xml",
         "source": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\src\\main\\res\\drawable\\tab_b_layer_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\80d3eafea4c893fe930f81cfb7d34b3938ae034f\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
         "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
@@ -76,12 +76,12 @@
         "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\2181f131a6026738c47706194b95baa7e0dea664\\output\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable\\car_top_37x37.png",
-        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\drawable\\car_top_37x37.png"
-    },
-    {
         "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_e_state_btn.xml",
         "source": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\src\\main\\res\\drawable\\tab_e_state_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable\\car_top_37x37.png",
+        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\drawable\\car_top_37x37.png"
     },
     {
         "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_all_layer_btn.xml",
@@ -128,12 +128,12 @@
         "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\2181f131a6026738c47706194b95baa7e0dea664\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable\\round_panel.xml",
-        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\drawable\\round_panel.xml"
-    },
-    {
         "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable\\next_button_layout.xml",
         "source": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\src\\main\\res\\drawable\\next_button_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable\\round_panel.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\drawable\\round_panel.xml"
     },
     {
         "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_d_layer_btn_tap.xml",
@@ -150,6 +150,10 @@
     {
         "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
         "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\2181f131a6026738c47706194b95baa7e0dea664\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_sync_black_24dp.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\drawable\\ic_sync_black_24dp.xml"
     },
     {
         "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_d_state_btn.xml",
@@ -188,6 +192,10 @@
         "source": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\src\\main\\res\\drawable\\tab_b_layer_btn_tap.xml"
     },
     {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_info_black_24dp.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\drawable\\ic_info_black_24dp.xml"
+    },
+    {
         "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
         "source": "C:\\Users\\shakeel\\.android\\build-cache\\80d3eafea4c893fe930f81cfb7d34b3938ae034f\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
@@ -204,12 +212,12 @@
         "source": "C:\\Users\\shakeel\\.android\\build-cache\\56217520e225244278816f538a17bbcd0f754483\\output\\res\\drawable\\mr_ic_media_route_mono_light.xml"
     },
     {
-        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_e_layer_btn.xml",
-        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\drawable\\tab_e_layer_btn.xml"
-    },
-    {
         "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_connecting.xml",
         "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\b654e952053570f3974f9d63d53fb3c3d6ba1451\\output\\res\\drawable\\cast_ic_notification_connecting.xml"
+    },
+    {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_e_layer_btn.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\drawable\\tab_e_layer_btn.xml"
     },
     {
         "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable\\back.jpg",
@@ -260,12 +268,12 @@
         "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\2181f131a6026738c47706194b95baa7e0dea664\\output\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
-        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable\\marker_car_gray.png",
-        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\drawable\\marker_car_gray.png"
-    },
-    {
         "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_bg_selector.xml",
         "source": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\src\\main\\res\\drawable\\tab_bg_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable\\marker_car_gray.png",
+        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\drawable\\marker_car_gray.png"
     },
     {
         "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_text_clasic.xml",
@@ -718,6 +726,10 @@
     {
         "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "C:\\Users\\shakeel\\.android\\build-cache\\80d3eafea4c893fe930f81cfb7d34b3938ae034f\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_notifications_black_24dp.xml",
+        "source": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\src\\main\\res\\drawable\\ic_notifications_black_24dp.xml"
     },
     {
         "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",

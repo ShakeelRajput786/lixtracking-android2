@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:2:1-125:12
+ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:2:1-123:12
 	package
 		ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:3:5-33
 	android:versionName
@@ -74,7 +74,7 @@ MERGED from [com.google.android.gms:play-services-maps:8.1.0] C:\Users\Muhammad 
 	android:required
 		ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:18:9-32
 application
-ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:20:5-122:19
+ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:20:5-121:19
 MERGED from [com.google.android.gms:play-services:8.1.0] C:\Users\Muhammad Shakeel\.android\build-cache\e609b459d047c89b662e130866baaf6bed8672fb\output\AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-appinvite:8.1.0] C:\Users\Muhammad Shakeel\.android\build-cache\255933118017124e621e212323e02a9e0796ff0c\output\AndroidManifest.xml:20:5-20
 MERGED from [com.google.android.gms:play-services-appstate:8.1.0] C:\Users\Muhammad Shakeel\.android\build-cache\79b0da31706d84ed8cdcd90fa5c8ce383f846886\output\AndroidManifest.xml:19:5-20
@@ -102,7 +102,6 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Mu
 MERGED from [com.android.support:design:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\801aa535f527f126eb789981adb353c844ecada2\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\2181f131a6026738c47706194b95baa7e0dea664\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\d6f25a0d0796674c3ee4700c26ab83985eb55998\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\0915a5b066f00092c250cfda70139600756737f2\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:transition:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\2a55cc20899c02404862181beee16ed572ddffe3\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-v13:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\8c0063956a3f886758782ca44e670a11f1e234e4\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\637bb3aea394856f5c5f77ff50a7e59b3738ae4b\output\AndroidManifest.xml:29:5-20
@@ -110,6 +109,7 @@ MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Muhammad Shak
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\ba92f5e6aaa7b4710d6fb0ae9c8c829458b6a22d\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\39c4b0be0858f00ce758230f9035ddc363d558be\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\552358e8aefd0c4cc8eb25a6a00ec11d5d8a88ca\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\0915a5b066f00092c250cfda70139600756737f2\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\07700690fc1b3a427979f5c693248641c2b081f1\output\AndroidManifest.xml:29:5-20
 	android:label
 		ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:24:9-41
@@ -122,11 +122,11 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Muhammad Shakee
 	android:name
 		ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:21:9-46
 uses-library#com.google.android.maps
-ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:26:9-28:15
+ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:26:9-28:40
 	android:required
-		ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:27:13-37
+		ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:26:23-61
+		ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:27:13-51
 meta-data#com.google.android.maps.v2.API_KEY
 ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:39:9-41:71
 	android:value
@@ -269,17 +269,21 @@ ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\l
 	android:name
 		ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:110:13-58
 activity#com.lixtracking.lt.activities.AlarmActivity
-ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:114:9-116:15
+ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:114:9-116:52
 	android:screenOrientation
-		ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:115:13-49
+		ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:116:13-49
 	android:name
-		ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:114:19-59
+		ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:115:13-53
 activity#com.lixtracking.lt.activities.ActivityMoreNew
-ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:117:9-119:15
+ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:117:9-119:52
 	android:screenOrientation
-		ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:118:13-49
+		ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:119:13-49
 	android:name
-		ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:117:19-61
+		ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:118:13-55
+activity#com.lixtracking.lt.activities.SettingsActivity
+ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:120:9-74
+	android:name
+		ADDED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:120:19-62
 uses-sdk
 INJECTED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.android.gms:play-services:8.1.0] C:\Users\Muhammad Shakeel\.android\build-cache\e609b459d047c89b662e130866baaf6bed8672fb\output\AndroidManifest.xml:18:5-42
@@ -311,7 +315,6 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Mu
 MERGED from [com.android.support:design:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\801aa535f527f126eb789981adb353c844ecada2\output\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\2181f131a6026738c47706194b95baa7e0dea664\output\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\d6f25a0d0796674c3ee4700c26ab83985eb55998\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\0915a5b066f00092c250cfda70139600756737f2\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\eabfc14537dde180b796cdf884841697e4eff822\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:transition:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\2a55cc20899c02404862181beee16ed572ddffe3\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v13:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\8c0063956a3f886758782ca44e670a11f1e234e4\output\AndroidManifest.xml:21:5-23:55
@@ -320,6 +323,7 @@ MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Muhammad Shak
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\ba92f5e6aaa7b4710d6fb0ae9c8c829458b6a22d\output\AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\39c4b0be0858f00ce758230f9035ddc363d558be\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\552358e8aefd0c4cc8eb25a6a00ec11d5d8a88ca\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\0915a5b066f00092c250cfda70139600756737f2\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\07700690fc1b3a427979f5c693248641c2b081f1\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\801aa535f527f126eb789981adb353c844ecada2\output\AndroidManifest.xml:23:9-59
@@ -381,12 +385,11 @@ ADDED from [com.google.android.gms:play-services-wallet:8.1.0] C:\Users\Muhammad
 	android:name
 		ADDED from [com.google.android.gms:play-services-wallet:8.1.0] C:\Users\Muhammad Shakeel\.android\build-cache\8b6738a7c68296d8915674c3be4ffa007f3142fe\output\AndroidManifest.xml:22:22-71
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:2:1-125:12 reason: com.google.android.gms.maps requested WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\src\main\AndroidManifest.xml:2:1-123:12 reason: com.google.android.gms.maps requested WRITE_EXTERNAL_STORAGE
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\801aa535f527f126eb789981adb353c844ecada2\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\2181f131a6026738c47706194b95baa7e0dea664\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\d6f25a0d0796674c3ee4700c26ab83985eb55998\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\0915a5b066f00092c250cfda70139600756737f2\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\eabfc14537dde180b796cdf884841697e4eff822\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:transition:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\2a55cc20899c02404862181beee16ed572ddffe3\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-v13:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\8c0063956a3f886758782ca44e670a11f1e234e4\output\AndroidManifest.xml:25:5-27:34
@@ -395,6 +398,7 @@ MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Muhammad Shak
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\ba92f5e6aaa7b4710d6fb0ae9c8c829458b6a22d\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\39c4b0be0858f00ce758230f9035ddc363d558be\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\552358e8aefd0c4cc8eb25a6a00ec11d5d8a88ca\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\0915a5b066f00092c250cfda70139600756737f2\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\07700690fc1b3a427979f5c693248641c2b081f1\output\AndroidManifest.xml:25:5-27:34
 	android:value
 		ADDED from [com.android.support:design:25.3.1] C:\Users\Muhammad Shakeel\.android\build-cache\801aa535f527f126eb789981adb353c844ecada2\output\AndroidManifest.xml:27:9-31

@@ -23,9 +23,9 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
-        <uses-library android:name="com.google.android.maps"
-            android:required="false"
-            />
+        <uses-library
+            android:name="com.google.android.maps"
+            android:required="false" />
 
         <!-- Old  Key -->
         <!--
@@ -111,15 +111,13 @@
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".activities.AlarmActivity"
-            android:screenOrientation="portrait"
-            />
-        <activity android:name=".activities.ActivityMoreNew"
-            android:screenOrientation="portrait"
-            />
-
-
+        <activity
+            android:name=".activities.AlarmActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ActivityMoreNew"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.SettingsActivity"></activity>
     </application>
-
 
 </manifest>

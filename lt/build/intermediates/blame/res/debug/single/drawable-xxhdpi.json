@@ -32,12 +32,12 @@
         "source": "C:\\Users\\shakeel\\.android\\build-cache\\b14afc0a41caa9654adc6e21e15aba780c89168c\\output\\res\\drawable-xxhdpi\\common_signin_btn_text_disabled_focus_dark.9.png"
     },
     {
-        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_pause_light.png",
-        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\484e9e20ea5f52949772d4bee8958673c7e4ba89\\output\\res\\drawable-xxhdpi\\ic_pause_light.png"
-    },
-    {
         "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_signin_btn_icon_disabled_light.9.png",
         "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\f5f4ca0e859ff1636f28e46cb7f55f8d133ba758\\output\\res\\drawable-xxhdpi\\common_signin_btn_icon_disabled_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_pause_light.png",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\484e9e20ea5f52949772d4bee8958673c7e4ba89\\output\\res\\drawable-xxhdpi\\ic_pause_light.png"
     },
     {
         "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_media_play.png",

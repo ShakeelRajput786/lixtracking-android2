@@ -345,8 +345,6 @@ public class LoginActivity extends Activity implements View.OnClickListener{
                 }
                 settings.setUserRoleId(result);
 
-            /*   Intent intent = new Intent(getApplicationContext(), MainActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                startActivity(intent);*/
                Intent intent = new Intent(getApplicationContext(), DynamicTabActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);
 

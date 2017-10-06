@@ -60,24 +60,24 @@
         "source": "C:\\Users\\shakeel\\.android\\build-cache\\56217520e225244278816f538a17bbcd0f754483\\output\\res\\drawable-hdpi\\ic_play_light.png"
     },
     {
-        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_collapse_right_dark.png",
-        "source": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\src\\main\\res\\drawable-hdpi\\ic_action_collapse_right_dark.png"
+        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_signin_btn_icon_focus_dark.9.png",
+        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\f5f4ca0e859ff1636f28e46cb7f55f8d133ba758\\output\\res\\drawable-hdpi\\common_signin_btn_icon_focus_dark.9.png"
     },
     {
         "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_cast_dark.png",
         "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\484e9e20ea5f52949772d4bee8958673c7e4ba89\\output\\res\\drawable-hdpi\\ic_cast_dark.png"
     },
     {
-        "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_signin_btn_icon_focus_dark.9.png",
-        "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\f5f4ca0e859ff1636f28e46cb7f55f8d133ba758\\output\\res\\drawable-hdpi\\common_signin_btn_icon_focus_dark.9.png"
-    },
-    {
-        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_media_play.png",
-        "source": "C:\\Users\\shakeel\\.android\\build-cache\\56217520e225244278816f538a17bbcd0f754483\\output\\res\\drawable-hdpi\\ic_media_play.png"
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_collapse_right_dark.png",
+        "source": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\src\\main\\res\\drawable-hdpi\\ic_action_collapse_right_dark.png"
     },
     {
         "merged": "C:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_signin_btn_icon_pressed_dark.9.png",
         "source": "C:\\Users\\Muhammad Shakeel\\.android\\build-cache\\f5f4ca0e859ff1636f28e46cb7f55f8d133ba758\\output\\res\\drawable-hdpi\\common_signin_btn_icon_pressed_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_media_play.png",
+        "source": "C:\\Users\\shakeel\\.android\\build-cache\\56217520e225244278816f538a17bbcd0f754483\\output\\res\\drawable-hdpi\\ic_media_play.png"
     },
     {
         "merged": "C:\\Users\\shakeel\\androidprojects\\lixtracking-android\\lt\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_signin_btn_text_focus_dark.9.png",

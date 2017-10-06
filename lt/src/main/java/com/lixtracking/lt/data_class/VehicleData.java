@@ -12,7 +12,7 @@ public class VehicleData {
     public static final String FIRST_NAME = "first_name";
     public static final String LAST_NAME = "last_name";
     public static final String MAKE = "make";
-    public static final String MODEL = "mode";
+    public static final String MODEL = "model";
     public static final String YEAR = "year";
     public static final String STATUS = "status";
     public static final String USER_ID = "user_id";

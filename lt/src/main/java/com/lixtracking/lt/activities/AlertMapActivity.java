@@ -42,9 +42,6 @@ import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by saiber on 14.04.2014.
- */
 public class AlertMapActivity extends FragmentActivity implements OnMapReadyCallback {
     private static final String PREF_MAP_TYPE = "pref_map_type";
     private int map_type = GoogleMap.MAP_TYPE_NORMAL;
@@ -79,9 +76,7 @@ public class AlertMapActivity extends FragmentActivity implements OnMapReadyCall
         SupportMapFragment mapFragment = (SupportMapFragment) fragmentManager.findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
         
-        //map = ((MapFragment)getFragmentManager().findFragmentById(R.id.map)).getMap();
-        //UiSettings uiSettings = map.getUiSettings();
-        //uiSettings.setZoomControlsEnabled(false);
+
     }
     
     @Override

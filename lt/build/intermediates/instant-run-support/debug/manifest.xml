@@ -131,6 +131,7 @@
         <activity
             android:name="com.lixtracking.lt.activities.ActivityMoreNew"
             android:screenOrientation="portrait" />
+        <activity android:name="com.lixtracking.lt.activities.SettingsActivity" />
 
         <provider
             android:name="com.google.android.gms.measurement.AppMeasurementContentProvider"

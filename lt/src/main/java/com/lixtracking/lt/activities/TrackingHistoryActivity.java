@@ -620,5 +620,6 @@ public class TrackingHistoryActivity extends FragmentActivity implements View.On
         polylineOptions.color(Color.argb(lineAlpha, 0, 0, 255));
         polylineOptions.width(8);
         polylineOptions.zIndex(300);
+        polylineOptions.geodesic(true);
     }
 }
