@@ -1,10 +1,8 @@
 package com.lixtracking.lt.fragment;
 
 
-import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -16,7 +14,6 @@ import android.widget.ExpandableListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.lixtracking.lt.MainActivity;
 import com.lixtracking.lt.R;
 import com.lixtracking.lt.activities.VehicleDetailActivity;
 import com.lixtracking.lt.adapters.ExpandableListAdapter;
@@ -230,7 +227,7 @@ public class FragmentOnline extends Fragment{
         protected void onPostExecute(String result) {
             progressDialog.hide();
             if(result == null && listObjects == null) {
-                if(((MainActivity)getActivity()).getCurrentFragmentTag() == MainActivity.TAB_HOME) {
+                /*if(((MainActivity)getActivity()).getCurrentFragmentTag() == MainActivity.TAB_HOME) {
                     result = "Error connection";
                     AlertDialog.Builder builder = new AlertDialog.Builder(context);
                     builder.setTitle("Error");
@@ -245,7 +242,7 @@ public class FragmentOnline extends Fragment{
                     });
                     AlertDialog dialog = builder.create();
                     dialog.show();
-                }
+                }*/
                 progressBar.setVisibility(View.INVISIBLE);
                 isRunning = false;
                 progressDialog.hide();
