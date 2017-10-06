@@ -58,7 +58,7 @@ public class FragmentAll extends Fragment{
     HashMap<String, List<String>> listDataChild=new HashMap<String,List<String>>();
     // Context context;
     private List<VehicleData>vehicleDataList = null;
-
+    static String temp[]={"33.487007, -117.143784","41.653934, -81.450394","46.602070, -120.505898","28.018349, -82.764473","44.949642, -93.093124","47.380932, -122.234840"};
     public FragmentAll() {
 
     }
@@ -190,6 +190,12 @@ public class FragmentAll extends Fragment{
         }
         else{
             progressDialog.hide();
+            listAdapter = new ExpandableListAdapter(getActivity().getBaseContext(), listDataHeader, listDataChild);
+
+
+
+            expListView.setAdapter(listAdapter);
+            expListView.invalidate();
         }
 
 
@@ -278,7 +284,8 @@ public class FragmentAll extends Fragment{
                         case "Year":
                             data = String.valueOf(tempVehicleData.year);break;
                         case "City":
-                            data = String.valueOf(tempVehicleData.year);break;
+                            //data = String.valueOf(tempVehicleData.year);break;
+                            data=getCity(tempVehicleData.year);break;
                         case "Model":
                             data = String.valueOf(tempVehicleData.model);break;
                         case "Make":
@@ -303,7 +310,7 @@ public class FragmentAll extends Fragment{
                             }
                             break;
                             case "City":
-                                if (listDataHeader.get(c).equals(String.valueOf(tempVehicleData.year))) {
+                                if (listDataHeader.get(c).equals(getCity(tempVehicleData.year))) {
                                     String tempData = tempVehicleData.gps_id + "#:#" + tempVehicleData.vehicleIdentity + "#:#" + tempVehicleData.speed + "#:#" + tempVehicleData.status + "#:#" + tempVehicleData.vin;
                                     tempList.add(tempData);
                                 }
@@ -334,7 +341,7 @@ public class FragmentAll extends Fragment{
 
                 listAdapter = new ExpandableListAdapter(getActivity().getBaseContext(), listDataHeader, listDataChild);
 
-                // setting list adapter
+
 
                 expListView.setAdapter(listAdapter);
                 expListView.invalidate();
@@ -351,19 +358,32 @@ public class FragmentAll extends Fragment{
 
         }
     }
-    private static String getCity(double lati, double longi) {
+    private static String getCity(int year) {
         String cityName = "NOT FOUND";
 
-        Geocoder gcd = new Geocoder(context, Locale.getDefault());
-        try {
-            List<Address> addresses = gcd.getFromLocation(lati, longi, 1);
-            if (addresses.size() > 0) {
+        String address=temp[year%6];
+        String dump[]=address.split(",");
 
-                cityName = addresses.get(0).getAddressLine(0);
+        double lati=Double.parseDouble(dump[0]);
+        double longi=Double.parseDouble(dump[1]);
+        if(Geocoder.isPresent()) {
+            Geocoder gcd = new Geocoder(context, Locale.getDefault());
+            try {
+
+                List<Address> addresses = gcd.getFromLocation(lati, longi, 1);
+                if (addresses.size() > 0) {
+
+                    cityName = addresses.get(0).getAddressLine(0);
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
             }
-        } catch (Exception e) {
-            e.printStackTrace();
         }
+        else{
+            cityName="GeoCoder fail";
+        }
+
+
         return cityName;
 
     }

@@ -183,6 +183,12 @@ import java.util.List;
             }
             else{
                 progressDialog.hide();
+                listAdapter = new ExpandableListAdapter(getActivity().getBaseContext(), listDataHeader, listDataChild);
+
+
+
+                expListView.setAdapter(listAdapter);
+                expListView.invalidate();
             }
 
 

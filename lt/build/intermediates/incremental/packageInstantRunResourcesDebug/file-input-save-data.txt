@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Oct 04 13:18:38 PKT 2017
+#Fri Oct 06 12:23:07 PKT 2017
 20.base=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_
 143.base=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_
 493.base=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_
@@ -302,7 +302,7 @@
 303.file=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\design_ic_visibility_off.png
 16.base=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_
 444.set=ANDROID_RESOURCE
-165.file=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png
+165.file=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_\\res\\xml\\pref_general.xml
 148.base=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_
 42.file=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v23\\abc_tint_edittext.xml
 399.set=ANDROID_RESOURCE
@@ -530,12 +530,12 @@
 494.file=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\ivalarm.xml
 112.set=ANDROID_RESOURCE
 54.file=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\top_tab_bg_selected.xml
-357.file=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\ic_plusone_medium_off_client.png
+357.file=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\anim_slide_out_right.xml
 87.file=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\ic_action_refresh_light.png
 487.set=ANDROID_RESOURCE
 410.set=ANDROID_RESOURCE
 365.set=ANDROID_RESOURCE
-9.file=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png
+9.file=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\cast_ic_notification_0.png
 391.base=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_
 288.set=ANDROID_RESOURCE
 211.set=ANDROID_RESOURCE
@@ -1168,7 +1168,7 @@
 400.set=ANDROID_RESOURCE
 389.file=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\tracking_history_activity.xml
 355.set=ANDROID_RESOURCE
-8.file=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\cast_ic_notification_0.png
+8.file=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png
 390.base=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_
 278.set=ANDROID_RESOURCE
 201.set=ANDROID_RESOURCE
@@ -1183,7 +1183,7 @@
 483.file=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\common_signin_btn_icon_normal_light.9.png
 304.file=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\design_navigation_menu_item.xml
 454.set=ANDROID_RESOURCE
-166.file=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_\\res\\xml\\pref_general.xml
+166.file=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png
 149.base=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_
 43.file=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-v21\\design_bottom_navigation_item_background.xml
 81.set=ANDROID_RESOURCE
@@ -1393,7 +1393,7 @@ count=500
 495.file=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png
 122.set=ANDROID_RESOURCE
 55.file=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\ic_action_location_found_light.png
-358.file=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim\\anim_slide_out_right.xml
+358.file=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\ic_plusone_medium_off_client.png
 88.file=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\assets\\debug\\fonts\\myfont.ttf
 497.set=ANDROID_RESOURCE
 420.set=ANDROID_RESOURCE

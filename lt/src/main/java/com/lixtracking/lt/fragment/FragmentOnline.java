@@ -184,6 +184,12 @@ public class FragmentOnline extends Fragment{
         }
         else{
             progressDialog.hide();
+            listAdapter = new ExpandableListAdapter(getActivity().getBaseContext(), listDataHeader, listDataChild);
+
+
+
+            expListView.setAdapter(listAdapter);
+            expListView.invalidate();
         }
 
 
