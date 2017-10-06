@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+
+    android:background="@drawable/app_panel"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignParentTop="true"
+            android:paddingRight="20dp"
+
+
+            android:src="@drawable/ic_action_alarms_dark" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvGPSID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:text="GPS ID"
+                android:textColor="@color/text_label" />
+
+            <TextView
+                android:id="@+id/tvVin"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+
+
+                android:text=""
+                android:textColor="@color/text_label" />
+
+            <TextView
+                android:id="@+id/tvVehicleId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:text="Vehicle Id"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/text_label" />
+
+            <TextView
+                android:id="@+id/tvSpeedId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Speed"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/text_label" />
+
+        </LinearLayout>
+
+<!--        <ImageView
+            android:id="@+id/imageButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_action_collapse_right_dark" />-->
+    </TableRow>
+
+</LinearLayout>
+<!--
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/lblListItem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dip"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft" />
+</LinearLayout>-->
