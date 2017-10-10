@@ -13,6 +13,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.lixtracking.lt.R;
+import com.lixtracking.lt.common.Settings;
 import com.lixtracking.lt.fragment.FragmentAll;
 import com.lixtracking.lt.fragment.FragmentOffLine;
 import com.lixtracking.lt.fragment.FragmentOnline;
@@ -25,14 +26,30 @@ public class DynamicTabActivity extends AppCompatActivity {
 
     private ViewPager mViewPager;
     ImageView ivGlobal,ivSetting,ivAlarm;
+
+
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dynamic_tab_view);
        ivGlobal=(ImageView)findViewById(R.id.ivGlobal);
 
+
+        final Settings settings=new Settings(this);
         ivSetting=(ImageView)findViewById(R.id.ivSetting);
         ivAlarm=(ImageView)findViewById(R.id.ivAlarm);
+
+        mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
+
+
+        mViewPager = (ViewPager) findViewById(R.id.container);
+        mViewPager.setAdapter(mSectionsPagerAdapter);
+
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
+
+        tabLayout.setupWithViewPager(mViewPager);
+
         ivAlarm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -55,15 +72,8 @@ public class DynamicTabActivity extends AppCompatActivity {
             }
         });
 
-        mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
 
 
-        mViewPager = (ViewPager) findViewById(R.id.container);
-        mViewPager.setAdapter(mSectionsPagerAdapter);
-
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
-
-        tabLayout.setupWithViewPager(mViewPager);
 
 
 
@@ -102,7 +112,6 @@ public class DynamicTabActivity extends AppCompatActivity {
 
         @Override
         public int getCount() {
-            // Show 3 total pages.
             return 3;
         }
 
@@ -118,5 +127,7 @@ public class DynamicTabActivity extends AppCompatActivity {
             }
             return null;
         }
+
     }
+
 }

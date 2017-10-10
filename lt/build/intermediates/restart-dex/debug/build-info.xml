@@ -6,30 +6,34 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1507275658405"
+    timestamp="1507621430659"
     token="-5589859713418265729"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="655" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="17" />
     <task
         name="verifier"
-        duration="0" />
+        duration="4" />
+
+    <artifact
+        location="C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\build\outputs\apk\lt-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1507274580590"
+        timestamp="1507610301837"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\build\outputs\apk\lt-debug.apk"
-            type="SPLIT_MAIN" />
         <artifact
             location="C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
@@ -52,22 +56,14 @@
             location="C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
-        <artifact
-            location="C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1507275375905"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
@@ -77,7 +73,51 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1507275658405"
-        verifier="COLD_SWAP_REQUESTED" />
+        timestamp="1507619942559"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1507621338015"
+        verifier="CLASS_ADDED" >
+        <artifact
+            location="C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\build\outputs\apk\lt-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1507621430659"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Muhammad Shakeel\AndroidStudioProjects\lixtracking-android\lt\build\outputs\apk\lt-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
 
 </instant-run>

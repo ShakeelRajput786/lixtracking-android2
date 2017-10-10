@@ -7,13 +7,28 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     >
+    <Spinner
+        android:id="@+id/spinGroupBy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="37dp"
+
+        android:spinnerMode="dropdown"
+        android:theme="@style/ThemeOverlay.AppCompat.Light"
+
+        android:background="@drawable/shape_drop_down_normal"
+
+        android:textSize="20sp" />
     <ExpandableListView
         android:id="@+id/lvExpMain"
         android:layoutAnimation = "@anim/my_layout_animation"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/spinGroupBy" />
 
 
 

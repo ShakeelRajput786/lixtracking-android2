@@ -1,4 +1,4 @@
-#Fri Oct 06 12:23:08 PKT 2017
+#Tue Oct 10 12:42:24 PKT 2017
 base.0=C\:\\Users\\Muhammad Shakeel\\AndroidStudioProjects\\lixtracking-android\\lt\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a0c5827567260fabf69a9a1cf8e119b458d0dba6
 renamed.1=classes2.dex
 renamed.0=classes.dex

@@ -5,16 +5,17 @@ package com.lixtracking.lt.fragment;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
-import android.location.Address;
-import android.location.Geocoder;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ExpandableListView;
 import android.widget.ProgressBar;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.lixtracking.lt.R;
@@ -23,6 +24,7 @@ import com.lixtracking.lt.adapters.ExpandableListAdapter;
 import com.lixtracking.lt.common.Settings;
 import com.lixtracking.lt.common.URL;
 import com.lixtracking.lt.data_class.VehicleData;
+import com.lixtracking.lt.db.DBHelper;
 import com.lixtracking.lt.parsers.ParceVehicles;
 
 import org.apache.http.HttpEntity;
@@ -40,7 +42,6 @@ import org.apache.http.util.EntityUtils;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Locale;
 
 
 public class FragmentAll extends Fragment{
@@ -54,7 +55,10 @@ public class FragmentAll extends Fragment{
     List<String> listDataHeader=new ArrayList<String>();
     static Context context;
     Settings settings;
+    Spinner spinGroupBy;
     ProgressDialog progressDialog;
+    static DBHelper dbHelper;
+    String groupBy[]=new String[]{"Year","Make","Model","City"};
     HashMap<String, List<String>> listDataChild=new HashMap<String,List<String>>();
     // Context context;
     private List<VehicleData>vehicleDataList = null;
@@ -70,11 +74,48 @@ public class FragmentAll extends Fragment{
         // Inflate the layout for this fragment
         View view=inflater.inflate(R.layout.fragment_all, container, false);
         this.context=getActivity().getApplicationContext();
+         dbHelper=new DBHelper(context);
         settings=new Settings(context);
         progressBar=new ProgressBar(getActivity());
         progressDialog = new ProgressDialog(getActivity());
         progressDialog.setMessage("Fetching Data...");
         progressDialog.show();
+
+        spinGroupBy = (Spinner) view.findViewById(R.id.spinGroupBy);
+        ArrayAdapter<String> adapter=new ArrayAdapter<String>(context,android.R.layout.simple_list_item_1,groupBy);
+        spinGroupBy.setAdapter(adapter);
+        switch(settings.getGroupBy()){
+            case "Year":
+                spinGroupBy.setSelection(0);break;
+            case "Make":
+                spinGroupBy.setSelection(1);break;
+            case "Model":
+                spinGroupBy.setSelection(2);break;
+            case "City":
+                spinGroupBy.setSelection(3);break;
+        }
+        spinGroupBy.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+
+
+
+
+
+                settings.setGroupBy(groupBy[i]);
+
+                progressDialog.show();
+                new getVehiclesTask().execute();
+
+
+
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
         // get the listview
         expListView = (ExpandableListView)view.findViewById(R.id.lvExpMain);
 
@@ -91,12 +132,11 @@ public class FragmentAll extends Fragment{
             @Override
             public boolean onGroupClick(ExpandableListView parent, View v,
                                         int groupPosition, long id) {
-                // Toast.makeText(getApplicationContext(),
-                // "Group Clicked " + listDataHeader.get(groupPosition),
-                // Toast.LENGTH_SHORT).show();
+
                 return false;
             }
         });
+
 
   /*      // Listview Group expanded listener
         expListView.setOnGroupExpandListener(new ExpandableListView.OnGroupExpandListener() {
@@ -311,6 +351,7 @@ public class FragmentAll extends Fragment{
                             break;
                             case "City":
                                 if (listDataHeader.get(c).equals(getCity(tempVehicleData.year))) {
+                              //    if (listDataHeader.get(c).equals(String.valueOf(tempVehicleData.year))) {
                                     String tempData = tempVehicleData.gps_id + "#:#" + tempVehicleData.vehicleIdentity + "#:#" + tempVehicleData.speed + "#:#" + tempVehicleData.status + "#:#" + tempVehicleData.vin;
                                     tempList.add(tempData);
                                 }
@@ -362,26 +403,13 @@ public class FragmentAll extends Fragment{
         String cityName = "NOT FOUND";
 
         String address=temp[year%6];
+
         String dump[]=address.split(",");
 
         double lati=Double.parseDouble(dump[0]);
         double longi=Double.parseDouble(dump[1]);
-        if(Geocoder.isPresent()) {
-            Geocoder gcd = new Geocoder(context, Locale.getDefault());
-            try {
+        cityName=dbHelper.getCityNameByLatitudeLong(lati,longi);
 
-                List<Address> addresses = gcd.getFromLocation(lati, longi, 1);
-                if (addresses.size() > 0) {
-
-                    cityName = addresses.get(0).getAddressLine(0);
-                }
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-        else{
-            cityName="GeoCoder fail";
-        }
 
 
         return cityName;

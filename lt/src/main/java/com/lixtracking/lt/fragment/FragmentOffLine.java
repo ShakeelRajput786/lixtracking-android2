@@ -10,8 +10,11 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ExpandableListView;
 import android.widget.ProgressBar;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.lixtracking.lt.R;
@@ -51,6 +54,8 @@ import java.util.List;
         List<String> listDataHeader=new ArrayList<String>();
         Context context;
         Settings settings;
+        Spinner spinGroupBy;
+        String groupBy[]=new String[]{"Year","Make","Model","City"};
         ProgressDialog progressDialog;
         HashMap<String, List<String>> listDataChild=new HashMap<String,List<String>>();
         // Context context;
@@ -72,6 +77,41 @@ import java.util.List;
             progressDialog = new ProgressDialog(getActivity());
             progressDialog.setMessage("Fetching Data...");
             progressDialog.show();
+            spinGroupBy = (Spinner) view.findViewById(R.id.spinGroupBy);
+            ArrayAdapter<String> adapter=new ArrayAdapter<String>(context,android.R.layout.simple_list_item_1,groupBy);
+            spinGroupBy.setAdapter(adapter);
+            switch(settings.getGroupBy()){
+                case "Year":
+                    spinGroupBy.setSelection(0);break;
+                case "Make":
+                    spinGroupBy.setSelection(1);break;
+                case "Model":
+                    spinGroupBy.setSelection(2);break;
+                case "City":
+                    spinGroupBy.setSelection(3);break;
+            }
+            spinGroupBy.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+                @Override
+                public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+
+
+
+
+
+                    settings.setGroupBy(groupBy[i]);
+
+                    progressDialog.show();
+                    new getVehiclesTask().execute();
+
+
+
+                }
+
+                @Override
+                public void onNothingSelected(AdapterView<?> adapterView) {
+
+                }
+            });
             // get the listview
             expListView = (ExpandableListView)view.findViewById(R.id.lvExpMain);
 

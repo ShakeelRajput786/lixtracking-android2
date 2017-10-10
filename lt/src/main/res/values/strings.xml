@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <string name="group_by">Group By</string>
     <string name="app_name">LixTracking</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
